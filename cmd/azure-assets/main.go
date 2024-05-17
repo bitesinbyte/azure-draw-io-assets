@@ -30,6 +30,11 @@ func main() {
 			return
 		}
 
+		err = config.ReadAndConvertSVGFiles("img", "assets/azure_latest.xml")
+		if err != nil {
+			return
+		}
+
 		configData.CurrentVersion = configData.CurrentVersion + 1
 		config.SaveConfig("config.json", configData)
 	}
