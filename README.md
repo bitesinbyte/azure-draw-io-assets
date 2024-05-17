@@ -36,4 +36,4 @@ If you need any help or if you find any issue, please raise it [here](https://gi
 
 ## License
 
-Licensed under the [MIT license](https://github.com/bitesinbyte/azure-draw-io-assets/blob/main/LICENSE).
+Licensed under the [MIT license](https://github.com/bitesinbyte/azure-draw-io-assets/blob/main/LICENCE).
