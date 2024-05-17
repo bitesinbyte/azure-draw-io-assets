@@ -10,22 +10,6 @@ func main() {
 	// Load configuration from JSON file
 	configData := config.LoadConfig("config.json")
 
-	err := external.DownloadAssetZip(configData.CurrentVersion)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	err = config.ReadAndConvertSVGFiles("img", "assets/azure_latest.xml")
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	err = external.Cleanup(configData.CurrentVersion)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-
 	// check latest
 	doesNewVersionAvailable, err := external.DoesNewVersionReleased(configData.CurrentVersion)
 	if err != nil {

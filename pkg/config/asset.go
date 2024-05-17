@@ -5,7 +5,6 @@ import (
 	"encoding/xml"
 	"fmt"
 	"github.com/bitesinbyte/azure-draw-io-assets/utils"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
@@ -75,8 +74,7 @@ func ReadAndConvertSVGFiles(rootDir, outputFilePath string) error {
 		return err
 	}
 
-	output = []byte(xml.Header + string(output))
-	if err := ioutil.WriteFile(outputFilePath, output, 0644); err != nil {
+	if err := os.WriteFile(outputFilePath, output, 0644); err != nil {
 		return err
 	}
 
