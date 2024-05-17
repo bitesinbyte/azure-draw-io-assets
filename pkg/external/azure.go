@@ -7,7 +7,6 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
-	"strings"
 )
 
 const AssetUrl = "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V%d.zip"
@@ -74,23 +73,19 @@ func unzipAndFlatten(src string) error {
 		if f.FileInfo().IsDir() {
 			continue // Skip directories
 		}
-
 		fileName := filepath.Base(f.Name) // Get the file name without directories
-		fpath := filepath.Join(dest, fileName)
-
-		// Ensure no overwriting happens by appending a unique suffix if needed
-		for i := 1; ; i++ {
-			if _, err := os.Stat(fpath); os.IsNotExist(err) {
-				break // File does not exist, safe to use fpath
-			}
-			fpath = filepath.Join(dest, fmt.Sprintf("%s_%d%s", strings.TrimSuffix(fileName, filepath.Ext(fileName)), i, filepath.Ext(fileName)))
+		fileExtension := filepath.Ext(fileName)
+		if fileExtension != ".svg" {
+			continue
 		}
 
-		if err := os.MkdirAll(filepath.Dir(fpath), os.ModePerm); err != nil {
+		path := filepath.Join(dest, fileName)
+
+		if err := os.MkdirAll(filepath.Dir(path), os.ModePerm); err != nil {
 			return err
 		}
 
-		outFile, err := os.OpenFile(fpath, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, f.Mode())
+		outFile, err := os.OpenFile(path, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, f.Mode())
 		if err != nil {
 			return err
 		}
@@ -101,9 +96,11 @@ func unzipAndFlatten(src string) error {
 		}
 
 		_, err = io.Copy(outFile, rc)
-		outFile.Close()
-		rc.Close()
-
+		err = outFile.Close()
+		if err != nil {
+			return err
+		}
+		err = rc.Close()
 		if err != nil {
 			return err
 		}
