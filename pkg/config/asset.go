@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
+	"github.com/bitesinbyte/azure-draw-io-assets/utils"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -16,7 +17,7 @@ type MxLibrary struct {
 }
 
 type Entry struct {
-	XML    string `json:"xml"`
+	Data   string `json:"data"`
 	Width  int    `json:"w"`
 	Height int    `json:"h"`
 	Aspect string `json:"aspect"`
@@ -41,13 +42,12 @@ func ReadAndConvertSVGFiles(rootDir, outputFilePath string) error {
 			if err != nil {
 				return err
 			}
-
 			entry := Entry{
-				XML:    fmt.Sprintf("https://raw.githubusercontent.com/bitesinbyte/azure-draw-io-assets/main/img/%s", info.Name()),
-				Width:  48,
-				Height: 48,
+				Data:   fmt.Sprintf("https://raw.githubusercontent.com/bitesinbyte/azure-draw-io-assets/main/img/%s", info.Name()),
+				Width:  150,
+				Height: 150,
 				Aspect: "fixed",
-				Title:  strings.TrimSuffix(info.Name(), filepath.Ext(info.Name())),
+				Title:  utils.ExtractName(info.Name()),
 			}
 			entries = append(entries, entry)
 
