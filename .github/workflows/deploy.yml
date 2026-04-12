@@ -37,6 +37,9 @@ jobs:
           mkdir -p src/ui/public/icons
           cp src/sync-assets/img/*.svg src/ui/public/icons/
 
+      - name: Copy azure_latest.xml to public
+        run: cp src/sync-assets/assets/azure_latest.xml src/ui/public/azure_latest.xml
+
       - name: Generate icons metadata
         run: |
           node -e "
