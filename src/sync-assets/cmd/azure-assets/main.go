@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"time"
+
 	"github.com/bitesinbyte/azure-draw-io-assets/pkg/config"
 	"github.com/bitesinbyte/azure-draw-io-assets/pkg/external"
 )
@@ -36,6 +38,7 @@ func main() {
 		}
 
 		configData.CurrentVersion = configData.CurrentVersion + 1
+		configData.LastSyncDateTime = time.Now().UTC().Format(time.RFC3339)
 		config.SaveConfig("config.json", configData)
 	}
 	fmt.Printf("Done")

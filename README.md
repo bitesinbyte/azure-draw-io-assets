@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/bitesinbyte">
+  <a href="https://github.com/bitesinbyte/azure-draw-io-assets">
     <img src="https://github.com/bitesinbyte/azure-draw-io-assets/raw/main/.github/images/logo.png" width="256px" />
   </a>
 </p>
@@ -11,7 +11,7 @@ A collection of the latest assets for Microsoft Azure, optimized for use with Dr
 
 ### By using he direct import link
 
-The easiest way to consume one of these libraries, is to load them directly via the url parameter '[libs](https://desk.draw.io/support/solutions/articles/16000042546-supported-url-parameters)'. List the library urls as a semi-colon separated string. (example: https://app.diagrams.net/?splash=0&clibs=Uhttps://github.com/bitesinbyte/azure-draw-io-assets/blob/main/assets/azure_latest.xml)
+The easiest way to consume one of these libraries, is to load them directly via the url parameter '[libs](https://desk.draw.io/support/solutions/articles/16000042546-supported-url-parameters)'. List the library urls as a semi-colon separated string. (example: https://app.diagrams.net/?splash=0&clibs=Uhttps://github.com/bitesinbyte/azure-draw-io-assets/blob/main/src/sync-assets/assets/azure_latest.xml)
 
 ### By using the asset link
 
@@ -24,7 +24,7 @@ The easiest way to consume one of these libraries, is to load them directly via 
 
 ## Usage offline
 
-1. Download the Asset file from [here](https://github.com/bitesinbyte/azure-draw-io-assets/blob/main/assets/azure_latest.xml)
+1. Download the Asset file from [here](https://github.com/bitesinbyte/azure-draw-io-assets/blob/main/src/sync-assets/assets/azure_latest.xml)
    ![](.github/images/4.png)
 2. On Desktop App, Go to file and select "Open Library"
    ![](.github/images/5.png)

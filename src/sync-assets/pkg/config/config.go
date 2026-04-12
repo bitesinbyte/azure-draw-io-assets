@@ -6,9 +6,10 @@ import (
 	"os"
 )
 
-// Config struct to hold Mastodon and RSS feed details
+// Config struct to hold sync state
 type Config struct {
-	CurrentVersion int16 `json:"currentVersion"`
+	CurrentVersion   int16  `json:"currentVersion"`
+	LastSyncDateTime string `json:"lastSyncDateTime"`
 }
 
 func LoadConfig(filename string) Config {

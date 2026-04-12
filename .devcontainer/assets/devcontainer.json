@@ -1,6 +1,7 @@
 {
   "name": "azure-draw-io-assets",
   "image": "mcr.microsoft.com/devcontainers/go:1.21",
+  "workspaceFolder": "/workspaces/azure-draw-io-assets/src/sync-assets/",
   "customizations": {
     "vscode": {
       "extensions": [

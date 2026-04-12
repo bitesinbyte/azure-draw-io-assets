@@ -1,0 +1,3217 @@
+[
+  {
+    "id": "00001",
+    "name": "Monitor",
+    "file": "00001-icon-service-Monitor.svg"
+  },
+  {
+    "id": "00002",
+    "name": "Alerts",
+    "file": "00002-icon-service-Alerts.svg"
+  },
+  {
+    "id": "00003",
+    "name": "Advisor",
+    "file": "00003-icon-service-Advisor.svg"
+  },
+  {
+    "id": "00004",
+    "name": "Cost Management and Billing",
+    "file": "00004-icon-service-Cost-Management-and-Billing.svg"
+  },
+  {
+    "id": "00006",
+    "name": "Blueprints",
+    "file": "00006-icon-service-Blueprints.svg"
+  },
+  {
+    "id": "00007",
+    "name": "Activity Log",
+    "file": "00007-icon-service-Activity-Log.svg"
+  },
+  {
+    "id": "00008",
+    "name": "Diagnostics Settings",
+    "file": "00008-icon-service-Diagnostics-Settings.svg"
+  },
+  {
+    "id": "00009",
+    "name": "Log Analytics Workspaces",
+    "file": "00009-icon-service-Log-Analytics-Workspaces.svg"
+  },
+  {
+    "id": "00010",
+    "name": "Scheduler Job Collections",
+    "file": "00010-icon-service-Scheduler-Job-Collections.svg"
+  },
+  {
+    "id": "00011",
+    "name": "Compliance",
+    "file": "00011-icon-service-Compliance.svg"
+  },
+  {
+    "id": "00012",
+    "name": "Application Insights",
+    "file": "00012-icon-service-Application-Insights.svg"
+  },
+  {
+    "id": "00014",
+    "name": "My Customers",
+    "file": "00014-icon-service-My-Customers.svg"
+  },
+  {
+    "id": "00017",
+    "name": "Recovery Services Vaults",
+    "file": "00017-icon-service-Recovery-Services-Vaults.svg"
+  },
+  {
+    "id": "00020",
+    "name": "Metrics",
+    "file": "00020-icon-service-Metrics.svg"
+  },
+  {
+    "id": "00021",
+    "name": "Solutions",
+    "file": "00021-icon-service-Solutions.svg"
+  },
+  {
+    "id": "00022",
+    "name": "Automation Accounts",
+    "file": "00022-icon-service-Automation-Accounts.svg"
+  },
+  {
+    "id": "00024",
+    "name": "Operation Log (Classic)",
+    "file": "00024-icon-service-Operation-Log-(Classic).svg"
+  },
+  {
+    "id": "00025",
+    "name": "Service Providers",
+    "file": "00025-icon-service-Service-Providers.svg"
+  },
+  {
+    "id": "00026",
+    "name": "Education",
+    "file": "00026-icon-service-Education.svg"
+  },
+  {
+    "id": "00027",
+    "name": "Service Catalog MAD",
+    "file": "00027-icon-service-Service-Catalog-MAD.svg"
+  },
+  {
+    "id": "00028",
+    "name": "Batch AI",
+    "file": "00028-icon-service-Batch-AI.svg"
+  },
+  {
+    "id": "00030",
+    "name": "Machine Learning Studio (Classic) Web Services",
+    "file": "00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services.svg"
+  },
+  {
+    "id": "00031",
+    "name": "Genomics",
+    "file": "00031-icon-service-Genomics.svg"
+  },
+  {
+    "id": "00036",
+    "name": "SQL Data Warehouses",
+    "file": "00036-icon-service-SQL-Data-Warehouses.svg"
+  },
+  {
+    "id": "00039",
+    "name": "Event Hubs",
+    "file": "00039-icon-service-Event-Hubs.svg"
+  },
+  {
+    "id": "00042",
+    "name": "Stream Analytics Jobs",
+    "file": "00042-icon-service-Stream-Analytics-Jobs.svg"
+  },
+  {
+    "id": "00046",
+    "name": "App Service Plans",
+    "file": "00046-icon-service-App-Service-Plans.svg"
+  },
+  {
+    "id": "00049",
+    "name": "App Service Certificates",
+    "file": "00049-icon-service-App-Service-Certificates.svg"
+  },
+  {
+    "id": "00050",
+    "name": "App Service Domains",
+    "file": "00050-icon-service-App-Service-Domains.svg"
+  },
+  {
+    "id": "00056",
+    "name": "CDN Profiles",
+    "file": "00056-icon-service-CDN-Profiles.svg"
+  },
+  {
+    "id": "00195",
+    "name": "Maintenance Configuration",
+    "file": "00195-icon-service-Maintenance-Configuration.svg"
+  },
+  {
+    "id": "00271",
+    "name": "Azure Firewall Manager",
+    "file": "00271-icon-service-Azure-Firewall-Manager.svg"
+  },
+  {
+    "id": "00272",
+    "name": "Azure Firewall Policy",
+    "file": "00272-icon-service-Azure-Firewall-Policy.svg"
+  },
+  {
+    "id": "00321",
+    "name": "Security",
+    "file": "00321-icon-service-Security.svg"
+  },
+  {
+    "id": "00327",
+    "name": "Azure Virtual Desktop",
+    "file": "00327-icon-service-Azure-Virtual-Desktop.svg"
+  },
+  {
+    "id": "00328",
+    "name": "Host Pools",
+    "file": "00328-icon-service-Host-Pools.svg"
+  },
+  {
+    "id": "00329",
+    "name": "Application Group",
+    "file": "00329-icon-service-Application-Group.svg"
+  },
+  {
+    "id": "00330",
+    "name": "Workspaces",
+    "file": "00330-icon-service-Workspaces.svg"
+  },
+  {
+    "id": "00378",
+    "name": "Detonation",
+    "file": "00378-icon-service-Detonation.svg"
+  },
+  {
+    "id": "00398",
+    "name": "Disk Encryption Sets",
+    "file": "00398-icon-service-Disk-Encryption-Sets.svg"
+  },
+  {
+    "id": "00399",
+    "name": "Device Security Apple",
+    "file": "00399-icon-service-Device-Security-Apple.svg"
+  },
+  {
+    "id": "00399",
+    "name": "Device Security Google",
+    "file": "00399-icon-service-Device-Security-Google.svg"
+  },
+  {
+    "id": "00399",
+    "name": "Device Security Windows",
+    "file": "00399-icon-service-Device-Security-Windows.svg"
+  },
+  {
+    "id": "00400",
+    "name": "Workspaces",
+    "file": "00400-icon-service-Workspaces.svg"
+  },
+  {
+    "id": "00408",
+    "name": "Intune Trends",
+    "file": "00408-icon-service-Intune-Trends.svg"
+  },
+  {
+    "id": "00412",
+    "name": "SSH Keys",
+    "file": "00412-icon-service-SSH-Keys.svg"
+  },
+  {
+    "id": "00427",
+    "name": "Private Link",
+    "file": "00427-icon-service-Private-Link.svg"
+  },
+  {
+    "id": "00438",
+    "name": "Azure Monitors for SAP Solutions",
+    "file": "00438-icon-service-Azure-Monitors-for-SAP-Solutions.svg"
+  },
+  {
+    "id": "00456",
+    "name": "Preview Features",
+    "file": "00456-icon-service-Preview-Features.svg"
+  },
+  {
+    "id": "00469",
+    "name": "Internet Analyzer Profiles",
+    "file": "00469-icon-service-Internet-Analyzer-Profiles.svg"
+  },
+  {
+    "id": "00471",
+    "name": "Azure Lighthouse",
+    "file": "00471-icon-service-Azure-Lighthouse.svg"
+  },
+  {
+    "id": "00555",
+    "name": "Integration Service Environments",
+    "file": "00555-icon-service-Integration-Service-Environments.svg"
+  },
+  {
+    "id": "00559",
+    "name": "Azure Cloud Shell",
+    "file": "00559-icon-service-Azure-Cloud-Shell.svg"
+  },
+  {
+    "id": "00562",
+    "name": "Endpoint Analytics",
+    "file": "00562-icon-service-Endpoint-Analytics.svg"
+  },
+  {
+    "id": "00563",
+    "name": "Change Analysis",
+    "file": "00563-icon-service-Change-Analysis.svg"
+  },
+  {
+    "id": "00571",
+    "name": "Universal Print",
+    "file": "00571-icon-service-Universal-Print.svg"
+  },
+  {
+    "id": "00606",
+    "name": "Azure Synapse Analytics",
+    "file": "00606-icon-service-Azure-Synapse-Analytics.svg"
+  },
+  {
+    "id": "00691",
+    "name": "Azure Databox Gateway",
+    "file": "00691-icon-service-Azure-Databox-Gateway.svg"
+  },
+  {
+    "id": "00698",
+    "name": "Remote Rendering",
+    "file": "00698-icon-service-Remote-Rendering.svg"
+  },
+  {
+    "id": "00701",
+    "name": "IP Groups",
+    "file": "00701-icon-service-IP-Groups.svg"
+  },
+  {
+    "id": "00712",
+    "name": "Video Analyzers",
+    "file": "00712-icon-service-Video-Analyzers.svg"
+  },
+  {
+    "id": "00756",
+    "name": "Azure Arc",
+    "file": "00756-icon-service-Azure-Arc.svg"
+  },
+  {
+    "id": "00776",
+    "name": "Azure HCP Cache",
+    "file": "00776-icon-service-Azure-HCP-Cache.svg"
+  },
+  {
+    "id": "00787",
+    "name": "Keys",
+    "file": "00787-icon-service-Keys.svg"
+  },
+  {
+    "id": "00792",
+    "name": "Computer Vision",
+    "file": "00792-icon-service-Computer-Vision.svg"
+  },
+  {
+    "id": "00793",
+    "name": "Custom Vision",
+    "file": "00793-icon-service-Custom-Vision.svg"
+  },
+  {
+    "id": "00794",
+    "name": "Face APIs",
+    "file": "00794-icon-service-Face-APIs.svg"
+  },
+  {
+    "id": "00795",
+    "name": "Content Moderators",
+    "file": "00795-icon-service-Content-Moderators.svg"
+  },
+  {
+    "id": "00796",
+    "name": "Personalizers",
+    "file": "00796-icon-service-Personalizers.svg"
+  },
+  {
+    "id": "00797",
+    "name": "Speech Services",
+    "file": "00797-icon-service-Speech-Services.svg"
+  },
+  {
+    "id": "00799",
+    "name": "QnA Makers",
+    "file": "00799-icon-service-QnA-Makers.svg"
+  },
+  {
+    "id": "00800",
+    "name": "Translator Text",
+    "file": "00800-icon-service-Translator-Text.svg"
+  },
+  {
+    "id": "00801",
+    "name": "Language Understanding",
+    "file": "00801-icon-service-Language-Understanding.svg"
+  },
+  {
+    "id": "00812",
+    "name": "Immersive Readers",
+    "file": "00812-icon-service-Immersive-Readers.svg"
+  },
+  {
+    "id": "00814",
+    "name": "Anomaly Detector",
+    "file": "00814-icon-service-Anomaly-Detector.svg"
+  },
+  {
+    "id": "00819",
+    "name": "Form Recognizers",
+    "file": "00819-icon-service-Form-Recognizers.svg"
+  },
+  {
+    "id": "00860",
+    "name": "Virtual WAN Hub",
+    "file": "00860-icon-service-Virtual-WAN-Hub.svg"
+  },
+  {
+    "id": "00903",
+    "name": "ExpressRoute Direct",
+    "file": "00903-icon-service-ExpressRoute-Direct.svg"
+  },
+  {
+    "id": "00913",
+    "name": "Cost Export",
+    "file": "00913-icon-service-Cost-Export.svg"
+  },
+  {
+    "id": "00919",
+    "name": "Administrative Units",
+    "file": "00919-icon-service-Administrative-Units.svg"
+  },
+  {
+    "id": "00965",
+    "name": "Multi Tenancy",
+    "file": "00965-icon-service-Multi-Tenancy.svg"
+  },
+  {
+    "id": "00968",
+    "name": "Azure Communication Services",
+    "file": "00968-icon-service-Azure-Communication-Services.svg"
+  },
+  {
+    "id": "00970",
+    "name": "Peering Service",
+    "file": "00970-icon-service-Peering-Service.svg"
+  },
+  {
+    "id": "01001",
+    "name": "Azure Network Function Manager Functions",
+    "file": "01001-icon-service-Azure-Network-Function-Manager-Functions.svg"
+  },
+  {
+    "id": "01007",
+    "name": "Static Apps",
+    "file": "01007-icon-service-Static-Apps.svg"
+  },
+  {
+    "id": "01030",
+    "name": "Digital Twins",
+    "file": "01030-icon-service-Digital-Twins.svg"
+  },
+  {
+    "id": "01038",
+    "name": "Collaborative Service",
+    "file": "01038-icon-service-Collaborative-Service.svg"
+  },
+  {
+    "id": "01084",
+    "name": "Verifiable Credentials",
+    "file": "01084-icon-service-Verifiable-Credentials.svg"
+  },
+  {
+    "id": "01085",
+    "name": "Log Analytics Query Pack",
+    "file": "01085-icon-service-Log-Analytics-Query-Pack.svg"
+  },
+  {
+    "id": "01088",
+    "name": "Arc Kubernetes",
+    "file": "01088-icon-service-Arc-Kubernetes.svg"
+  },
+  {
+    "id": "01105",
+    "name": "Private Link Service",
+    "file": "01105-icon-service-Private-Link-Service.svg"
+  },
+  {
+    "id": "01219",
+    "name": "Azure VMware Solution",
+    "file": "01219-icon-service-Azure-VMware-Solution.svg"
+  },
+  {
+    "id": "01239",
+    "name": "Azure Experimentation Studio",
+    "file": "01239-icon-service-Azure-Experimentation-Studio.svg"
+  },
+  {
+    "id": "01285",
+    "name": "Peerings",
+    "file": "01285-icon-service-Peerings.svg"
+  },
+  {
+    "id": "01688",
+    "name": "Azure Object Understanding",
+    "file": "01688-icon-service-Azure-Object-Understanding.svg"
+  },
+  {
+    "id": "01710",
+    "name": "Arc Machines",
+    "file": "01710-icon-service-Arc-Machines.svg"
+  },
+  {
+    "id": "01757",
+    "name": "Dashboard Hub",
+    "file": "01757-icon-service-Dashboard-Hub.svg"
+  },
+  {
+    "id": "01800",
+    "name": "Azure Video Indexer",
+    "file": "01800-icon-service-Azure-Video-Indexer.svg"
+  },
+  {
+    "id": "01846",
+    "name": "AVS VM",
+    "file": "01846-icon-service-AVS-VM.svg"
+  },
+  {
+    "id": "01848",
+    "name": "Arc PostgreSQL",
+    "file": "01848-icon-service-Arc-PostgreSQL .svg"
+  },
+  {
+    "id": "01849",
+    "name": "Arc SQL Managed Instance",
+    "file": "01849-icon-service-Arc-SQL-Managed-Instance.svg"
+  },
+  {
+    "id": "01850",
+    "name": "Arc SQL Server",
+    "file": "01850-icon-service-Arc-SQL-Server.svg"
+  },
+  {
+    "id": "01857",
+    "name": "Data Collection Rules",
+    "file": "01857-icon-service-Data-Collection-Rules.svg"
+  },
+  {
+    "id": "02072",
+    "name": "Partner Topic",
+    "file": "02072-icon-service-Partner-Topic.svg"
+  },
+  {
+    "id": "02073",
+    "name": "System Topic",
+    "file": "02073-icon-service-System-Topic.svg"
+  },
+  {
+    "id": "02112",
+    "name": "Automanaged VM",
+    "file": "02112-icon-service-Automanaged-VM.svg"
+  },
+  {
+    "id": "02145",
+    "name": "Resource Management Private Link",
+    "file": "02145-icon-service-Resource-Management-Private-Link.svg"
+  },
+  {
+    "id": "02189",
+    "name": "Azure Workbooks",
+    "file": "02189-icon-service-Azure-Workbooks.svg"
+  },
+  {
+    "id": "02200",
+    "name": "Resource Mover",
+    "file": "02200-icon-service-Resource-Mover.svg"
+  },
+  {
+    "id": "02209",
+    "name": "Private Link Services",
+    "file": "02209-icon-service-Private-Link-Services.svg"
+  },
+  {
+    "id": "02223",
+    "name": "Azure Chaos Studio",
+    "file": "02223-icon-service-Azure-Chaos-Studio.svg"
+  },
+  {
+    "id": "02237",
+    "name": "Network Managers",
+    "file": "02237-icon-service-Network-Managers.svg"
+  },
+  {
+    "id": "02247",
+    "name": "Microsoft Defender for IoT",
+    "file": "02247-icon-service-Microsoft-Defender-for-IoT.svg"
+  },
+  {
+    "id": "02251",
+    "name": "Azure AD Privleged Identity Management",
+    "file": "02251-icon-service-Azure-AD-Privleged-Identity-Management.svg"
+  },
+  {
+    "id": "02251",
+    "name": "Entra Privleged Identity Management",
+    "file": "02251-icon-service-Entra-Privleged-Identity-Management.svg"
+  },
+  {
+    "id": "02265",
+    "name": "Partner Registration",
+    "file": "02265-icon-service-Partner-Registration.svg"
+  },
+  {
+    "id": "02266",
+    "name": "Partner Namespace",
+    "file": "02266-icon-service-Partner-Namespace.svg"
+  },
+  {
+    "id": "02302",
+    "name": "Load Balancer Hub",
+    "file": "02302-icon-service-Load-Balancer-Hub.svg"
+  },
+  {
+    "id": "02322",
+    "name": "Dedicated HSM",
+    "file": "02322-icon-service-Dedicated-HSM.svg"
+  },
+  {
+    "id": "02323",
+    "name": "Modular Data Center",
+    "file": "02323-icon-service-Modular-Data-Center.svg"
+  },
+  {
+    "id": "02340",
+    "name": "Template Specs",
+    "file": "02340-icon-service-Template-Specs.svg"
+  },
+  {
+    "id": "02354",
+    "name": "Applens",
+    "file": "02354-icon-service-Applens.svg"
+  },
+  {
+    "id": "02356",
+    "name": "Arc Data services",
+    "file": "02356-icon-service-Arc-Data-services.svg"
+  },
+  {
+    "id": "02359",
+    "name": "Industrial IoT",
+    "file": "02359-icon-service-Industrial-IoT.svg"
+  },
+  {
+    "id": "02360",
+    "name": "Azure Backup Center",
+    "file": "02360-icon-service-Azure-Backup-Center.svg"
+  },
+  {
+    "id": "02361",
+    "name": "Backup Vault",
+    "file": "02361-icon-service-Backup-Vault.svg"
+  },
+  {
+    "id": "02370",
+    "name": "Managed Service Fabric",
+    "file": "02370-icon-service-Managed-Service-Fabric.svg"
+  },
+  {
+    "id": "02373",
+    "name": "CloudTest",
+    "file": "02373-icon-service-CloudTest.svg"
+  },
+  {
+    "id": "02386",
+    "name": "API Proxy",
+    "file": "02386-icon-service-API-Proxy.svg"
+  },
+  {
+    "id": "02390",
+    "name": "Azure SQL",
+    "file": "02390-icon-service-Azure-SQL.svg"
+  },
+  {
+    "id": "02392",
+    "name": "SSIS Lift And Shift IR",
+    "file": "02392-icon-service-SSIS-Lift-And-Shift-IR.svg"
+  },
+  {
+    "id": "02409",
+    "name": "Metrics Advisor",
+    "file": "02409-icon-service-Metrics-Advisor.svg"
+  },
+  {
+    "id": "02422",
+    "name": "Bastions",
+    "file": "02422-icon-service-Bastions.svg"
+  },
+  {
+    "id": "02423",
+    "name": "Load Testing",
+    "file": "02423-icon-service-Load-Testing.svg"
+  },
+  {
+    "id": "02475",
+    "name": "Device Update IoT Hub",
+    "file": "02475-icon-service-Device-Update-IoT-Hub.svg"
+  },
+  {
+    "id": "02486",
+    "name": "Fiji",
+    "file": "02486-icon-service-Fiji.svg"
+  },
+  {
+    "id": "02488",
+    "name": "Azure Monitor Dashboard",
+    "file": "02488-icon-service-Azure-Monitor-Dashboard.svg"
+  },
+  {
+    "id": "02496",
+    "name": "Virtual Router",
+    "file": "02496-icon-service-Virtual-Router.svg"
+  },
+  {
+    "id": "02503",
+    "name": "SCVMM Management Servers",
+    "file": "02503-icon-service-SCVMM-Management-Servers.svg"
+  },
+  {
+    "id": "02505",
+    "name": "Cloud Services (extended support)",
+    "file": "02505-icon-service-Cloud-Services-(extended-support).svg"
+  },
+  {
+    "id": "02507",
+    "name": "Azure Support Center Blue",
+    "file": "02507-icon-service-Azure-Support-Center-Blue.svg"
+  },
+  {
+    "id": "02509",
+    "name": "Connected Cache",
+    "file": "02509-icon-service-Connected-Cache.svg"
+  },
+  {
+    "id": "02515",
+    "name": "Web App + Database",
+    "file": "02515-icon-service-Web-App-+-Database.svg"
+  },
+  {
+    "id": "02517",
+    "name": "Azure Purview Accounts",
+    "file": "02517-icon-service-Azure-Purview-Accounts.svg"
+  },
+  {
+    "id": "02518",
+    "name": "Azure HPC Workbenches",
+    "file": "02518-icon-service-Azure-HPC-Workbenches.svg"
+  },
+  {
+    "id": "02560",
+    "name": "Disk Pool",
+    "file": "02560-icon-service-Disk-Pool.svg"
+  },
+  {
+    "id": "02561",
+    "name": "Bare Metal Infrastructure",
+    "file": "02561-icon-service-Bare-Metal-Infrastructure.svg"
+  },
+  {
+    "id": "02573",
+    "name": "Azure Hybrid Center",
+    "file": "02573-icon-service-Azure-Hybrid-Center.svg"
+  },
+  {
+    "id": "02573",
+    "name": "Connected Vehicle Platform",
+    "file": "02573-icon-service-Connected-Vehicle-Platform.svg"
+  },
+  {
+    "id": "02579",
+    "name": "Private Endpoints",
+    "file": "02579-icon-service-Private-Endpoints.svg"
+  },
+  {
+    "id": "02602",
+    "name": "Open Supply Chain Platform",
+    "file": "02602-icon-service-Open-Supply-Chain-Platform.svg"
+  },
+  {
+    "id": "02625",
+    "name": "Aquila",
+    "file": "02625-icon-service-Aquila.svg"
+  },
+  {
+    "id": "02631",
+    "name": "Logic Apps",
+    "file": "02631-icon-service-Logic-Apps.svg"
+  },
+  {
+    "id": "02634",
+    "name": "Image Templates",
+    "file": "02634-icon-service-Image-Templates.svg"
+  },
+  {
+    "id": "02638",
+    "name": "Reserved Capacity",
+    "file": "02638-icon-service-Reserved-Capacity.svg"
+  },
+  {
+    "id": "02654",
+    "name": "Custom IP Prefix",
+    "file": "02654-icon-service-Custom-IP-Prefix.svg"
+  },
+  {
+    "id": "02658",
+    "name": "FHIR Service",
+    "file": "02658-icon-service-FHIR-Service.svg"
+  },
+  {
+    "id": "02660",
+    "name": "MedTech Service",
+    "file": "02660-icon-service-MedTech-Service.svg"
+  },
+  {
+    "id": "02663",
+    "name": "Managed Instance Apache Cassandra",
+    "file": "02663-icon-service-Managed-Instance-Apache-Cassandra.svg"
+  },
+  {
+    "id": "02668",
+    "name": "Confidential Ledgers",
+    "file": "02668-icon-service-Confidential-Ledgers.svg"
+  },
+  {
+    "id": "02679",
+    "name": "Tenant Properties",
+    "file": "02679-icon-service-Tenant-Properties.svg"
+  },
+  {
+    "id": "02680",
+    "name": "Custom Azure AD Roles",
+    "file": "02680-icon-service-Custom-Azure-AD-Roles.svg"
+  },
+  {
+    "id": "02680",
+    "name": "Entra Identity Custom Roles",
+    "file": "02680-icon-service-Entra-Identity-Custom-Roles.svg"
+  },
+  {
+    "id": "02681",
+    "name": "AAD Licenses",
+    "file": "02681-icon-service-AAD-Licenses.svg"
+  },
+  {
+    "id": "02681",
+    "name": "Entra Identity Licenses",
+    "file": "02681-icon-service-Entra-Identity-Licenses.svg"
+  },
+  {
+    "id": "02691",
+    "name": "Test Base",
+    "file": "02691-icon-service-Test-Base.svg"
+  },
+  {
+    "id": "02692",
+    "name": "Spot VMSS",
+    "file": "02692-icon-service-Spot-VMSS.svg"
+  },
+  {
+    "id": "02695",
+    "name": "Spot VM",
+    "file": "02695-icon-service-Spot-VM.svg"
+  },
+  {
+    "id": "02697",
+    "name": "Azure Orbital",
+    "file": "02697-icon-service-Azure-Orbital.svg"
+  },
+  {
+    "id": "02732",
+    "name": "Capacity Reservation Groups",
+    "file": "02732-icon-service-Capacity-Reservation-Groups.svg"
+  },
+  {
+    "id": "02733",
+    "name": "Windows Notification Services",
+    "file": "02733-icon-service-Windows-Notification-Services.svg"
+  },
+  {
+    "id": "02740",
+    "name": "Azure Network Function Manager",
+    "file": "02740-icon-service-Azure-Network-Function-Manager.svg"
+  },
+  {
+    "id": "02742",
+    "name": "Subnet",
+    "file": "02742-icon-service-Subnet.svg"
+  },
+  {
+    "id": "02749",
+    "name": "Azure Applied AI Services",
+    "file": "02749-icon-service-Azure-Applied-AI-Services.svg"
+  },
+  {
+    "id": "02750",
+    "name": "Azure SQL Edge",
+    "file": "02750-icon-service-Azure-SQL-Edge.svg"
+  },
+  {
+    "id": "02761",
+    "name": "Lab Accounts",
+    "file": "02761-icon-service-Lab-Accounts.svg"
+  },
+  {
+    "id": "02793",
+    "name": "Mission Landing Zone",
+    "file": "02793-icon-service-Mission-Landing-Zone.svg"
+  },
+  {
+    "id": "02794",
+    "name": "Mobile Networks",
+    "file": "02794-icon-service-Mobile-Networks.svg"
+  },
+  {
+    "id": "02805",
+    "name": "VM App Definitions",
+    "file": "02805-icon-service-VM-App-Definitions.svg"
+  },
+  {
+    "id": "02806",
+    "name": "VM App Versions",
+    "file": "02806-icon-service-VM-App-Versions.svg"
+  },
+  {
+    "id": "02810",
+    "name": "Azure Edge Hardware Center",
+    "file": "02810-icon-service-Azure-Edge-Hardware-Center.svg"
+  },
+  {
+    "id": "02817",
+    "name": "Restore Points",
+    "file": "02817-icon-service-Restore-Points.svg"
+  },
+  {
+    "id": "02818",
+    "name": "Restore Points Collections",
+    "file": "02818-icon-service-Restore-Points-Collections.svg"
+  },
+  {
+    "id": "02819",
+    "name": "Resource Guard",
+    "file": "02819-icon-service-Resource-Guard.svg"
+  },
+  {
+    "id": "02827",
+    "name": "Azure Database PostgreSQL Server Group",
+    "file": "02827-icon-service-Azure-Database-PostgreSQL-Server-Group.svg"
+  },
+  {
+    "id": "02828",
+    "name": "Ceres",
+    "file": "02828-icon-service-Ceres.svg"
+  },
+  {
+    "id": "02842",
+    "name": "Azurite",
+    "file": "02842-icon-service-Azurite.svg"
+  },
+  {
+    "id": "02846",
+    "name": "Update Management Center",
+    "file": "02846-icon-service-Update-Management-Center.svg"
+  },
+  {
+    "id": "02854",
+    "name": "Entra Connect",
+    "file": "02854-icon-service-Entra-Connect.svg"
+  },
+  {
+    "id": "02864",
+    "name": "Azure Compute Galleries",
+    "file": "02864-icon-service-Azure-Compute-Galleries.svg"
+  },
+  {
+    "id": "02865",
+    "name": "Community Images",
+    "file": "02865-icon-service-Community-Images.svg"
+  },
+  {
+    "id": "02866",
+    "name": "VM Image Version",
+    "file": "02866-icon-service-VM-Image-Version.svg"
+  },
+  {
+    "id": "02876",
+    "name": "Language",
+    "file": "02876-icon-service-Language.svg"
+  },
+  {
+    "id": "02880",
+    "name": "Savings Plans",
+    "file": "02880-icon-service-Savings-Plans.svg"
+  },
+  {
+    "id": "02882",
+    "name": "DNS Private Resolver",
+    "file": "02882-icon-service-DNS-Private-Resolver.svg"
+  },
+  {
+    "id": "02884",
+    "name": "Worker Container App",
+    "file": "02884-icon-service-Worker-Container-App.svg"
+  },
+  {
+    "id": "029029174",
+    "name": "Load Balancer Hub",
+    "file": "029029174-icon-service-Load-Balancer-Hub.svg"
+  },
+  {
+    "id": "02905",
+    "name": "Azure Managed Grafana",
+    "file": "02905-icon-service-Azure-Managed-Grafana.svg"
+  },
+  {
+    "id": "02908",
+    "name": "Targets Management",
+    "file": "02908-icon-service-Targets-Management.svg"
+  },
+  {
+    "id": "02909",
+    "name": "Storage Functions",
+    "file": "02909-icon-service-Storage-Functions.svg"
+  },
+  {
+    "id": "029109619",
+    "name": "Toolchain Orchestrator",
+    "file": "029109619-icon-service-Toolchain-Orchestrator.svg"
+  },
+  {
+    "id": "029109619",
+    "name": "Workload Orchestration",
+    "file": "029109619-icon-service-Workload-Orchestration.svg"
+  },
+  {
+    "id": "029203566",
+    "name": "Data Virtualization",
+    "file": "029203566-icon-service-Data-Virtualization.svg"
+  },
+  {
+    "id": "02922",
+    "name": "Sonic Dash",
+    "file": "02922-icon-service-Sonic-Dash.svg"
+  },
+  {
+    "id": "029273094",
+    "name": "Edge Actions",
+    "file": "029273094-icon-service-Edge-Actions.svg"
+  },
+  {
+    "id": "02931",
+    "name": "Compliance Center",
+    "file": "02931-icon-service-Compliance-Center.svg"
+  },
+  {
+    "id": "02939",
+    "name": "Network Security Perimeters",
+    "file": "02939-icon-service-Network-Security-Perimeters.svg"
+  },
+  {
+    "id": "02944",
+    "name": "Azure Load Testing",
+    "file": "02944-icon-service-Azure-Load-Testing.svg"
+  },
+  {
+    "id": "029455661",
+    "name": "FRD QA",
+    "file": "029455661-icon-service-FRD-QA.svg"
+  },
+  {
+    "id": "02949",
+    "name": "Virtual Visits Builder",
+    "file": "02949-icon-service-Virtual-Visits-Builder.svg"
+  },
+  {
+    "id": "02951",
+    "name": "Azure Quotas",
+    "file": "02951-icon-service-Azure-Quotas.svg"
+  },
+  {
+    "id": "029636048",
+    "name": "Landing Zone",
+    "file": "029636048-icon-service-Landing-Zone.svg"
+  },
+  {
+    "id": "029637767",
+    "name": "Service Groups",
+    "file": "029637767-icon-service-Service-Groups.svg"
+  },
+  {
+    "id": "029797391",
+    "name": "Engage Center Connect",
+    "file": "029797391-icon-service-Engage-Center-Connect.svg"
+  },
+  {
+    "id": "02987",
+    "name": "pubsub",
+    "file": "02987-icon-service-pubsub.svg"
+  },
+  {
+    "id": "02989",
+    "name": "Container Apps Environments",
+    "file": "02989-icon-service-Container-Apps-Environments.svg"
+  },
+  {
+    "id": "030486388",
+    "name": "Storage Hubs",
+    "file": "030486388-icon-service-Storage-Hubs.svg"
+  },
+  {
+    "id": "03071",
+    "name": "App Compliance Automation",
+    "file": "03071-icon-service-App-Compliance-Automation.svg"
+  },
+  {
+    "id": "030868929",
+    "name": "Stage Maps",
+    "file": "030868929-icon-service-Stage-Maps.svg"
+  },
+  {
+    "id": "03089",
+    "name": "Virtual Instance for SAP",
+    "file": "03089-icon-service-Virtual-Instance-for-SAP.svg"
+  },
+  {
+    "id": "03090",
+    "name": "Azure Center for SAP",
+    "file": "03090-icon-service-Azure-Center-for-SAP.svg"
+  },
+  {
+    "id": "03091",
+    "name": "Azure Storage Mover",
+    "file": "03091-icon-service-Azure-Storage-Mover.svg"
+  },
+  {
+    "id": "03092",
+    "name": "Central Service Instance For SAP",
+    "file": "03092-icon-service-Central-Service-Instance-For-SAP.svg"
+  },
+  {
+    "id": "03134",
+    "name": "Kubernetes Fleet Manager",
+    "file": "03134-icon-service-Kubernetes-Fleet-Manager.svg"
+  },
+  {
+    "id": "03137",
+    "name": "Express Route Traffic Collector",
+    "file": "03137-icon-service-Express-Route-Traffic-Collector.svg"
+  },
+  {
+    "id": "03143",
+    "name": "Entra Verified ID",
+    "file": "03143-icon-service-Entra-Verified-ID.svg"
+  },
+  {
+    "id": "03173",
+    "name": "Cognitive Services Decisions",
+    "file": "03173-icon-service-Cognitive-Services-Decisions.svg"
+  },
+  {
+    "id": "03175",
+    "name": "Database Instance For SAP",
+    "file": "03175-icon-service-Database-Instance-For-SAP.svg"
+  },
+  {
+    "id": "03190",
+    "name": "Elastic SAN",
+    "file": "03190-icon-service-Elastic-SAN.svg"
+  },
+  {
+    "id": "032130874",
+    "name": "Logic Apps Template",
+    "file": "032130874-icon-service-Logic-Apps-Template.svg"
+  },
+  {
+    "id": "03225",
+    "name": "Verification As A Service",
+    "file": "03225-icon-service-Verification-As-A-Service.svg"
+  },
+  {
+    "id": "03248",
+    "name": "Azure Operator 5G Core",
+    "file": "03248-icon-service-Azure-Operator-5G-Core.svg"
+  },
+  {
+    "id": "032487601",
+    "name": "AKS Network Policy",
+    "file": "032487601-icon-service-AKS-Network-Policy.svg"
+  },
+  {
+    "id": "03250",
+    "name": "Microsoft Dev Box",
+    "file": "03250-icon-service-Microsoft-Dev-Box.svg"
+  },
+  {
+    "id": "03251",
+    "name": "Azure Deployment Environments",
+    "file": "03251-icon-service-Azure-Deployment-Environments.svg"
+  },
+  {
+    "id": "03256",
+    "name": "Multi Factor Authentication",
+    "file": "03256-icon-service-Multi-Factor-Authentication.svg"
+  },
+  {
+    "id": "032869111",
+    "name": "Microsoft Discovery",
+    "file": "032869111-icon-service-Microsoft-Discovery.svg"
+  },
+  {
+    "id": "03291",
+    "name": "API Center",
+    "file": "03291-icon-service-API-Center.svg"
+  },
+  {
+    "id": "03293",
+    "name": "Azure Stack HCI Sizer",
+    "file": "03293-icon-service-Azure-Stack-HCI-Sizer.svg"
+  },
+  {
+    "id": "033049334",
+    "name": "Scheduled Actions",
+    "file": "033049334-icon-service-Scheduled-Actions.svg"
+  },
+  {
+    "id": "03308",
+    "name": "Azure Dev Tunnels",
+    "file": "03308-icon-service-Azure-Dev-Tunnels.svg"
+  },
+  {
+    "id": "03309",
+    "name": "Entra Global Secure Access",
+    "file": "03309-icon-service-Entra-Global-Secure-Access.svg"
+  },
+  {
+    "id": "03309",
+    "name": "Global Secure Access",
+    "file": "03309-icon-service-Global-Secure-Access.svg"
+  },
+  {
+    "id": "03311",
+    "name": "Azure Communications Gateway",
+    "file": "03311-icon-service-Azure-Communications-Gateway.svg"
+  },
+  {
+    "id": "033112809",
+    "name": "promethus",
+    "file": "033112809-icon-service-promethus.svg"
+  },
+  {
+    "id": "03314",
+    "name": "Azure Sustainability",
+    "file": "03314-icon-service-Azure-Sustainability.svg"
+  },
+  {
+    "id": "03321",
+    "name": "Serverless Search",
+    "file": "03321-icon-service-Serverless-Search.svg"
+  },
+  {
+    "id": "03324",
+    "name": "Azure Operator Nexus",
+    "file": "03324-icon-service-Azure-Operator-Nexus.svg"
+  },
+  {
+    "id": "03328",
+    "name": "Application Gateway Containers",
+    "file": "03328-icon-service-Application-Gateway-Containers.svg"
+  },
+  {
+    "id": "03328",
+    "name": "Traffic Controller",
+    "file": "03328-icon-service-Traffic-Controller.svg"
+  },
+  {
+    "id": "03331",
+    "name": "Azure Red Hat OpenShift",
+    "file": "03331-icon-service-Azure-Red-Hat-OpenShift.svg"
+  },
+  {
+    "id": "03332",
+    "name": "Power BI Embedded",
+    "file": "03332-icon-service-Power-BI-Embedded.svg"
+  },
+  {
+    "id": "03333",
+    "name": "Azure Operator Insights",
+    "file": "03333-icon-service-Azure-Operator-Insights.svg"
+  },
+  {
+    "id": "03334",
+    "name": "Azure Operator Service Manager",
+    "file": "03334-icon-service-Azure-Operator-Service-Manager.svg"
+  },
+  {
+    "id": "03335",
+    "name": "Power Platform",
+    "file": "03335-icon-service-Power-Platform.svg"
+  },
+  {
+    "id": "03336",
+    "name": "Microsoft Defender EASM",
+    "file": "03336-icon-service-Microsoft-Defender-EASM.svg"
+  },
+  {
+    "id": "03337",
+    "name": "Bonsai",
+    "file": "03337-icon-service-Bonsai.svg"
+  },
+  {
+    "id": "03338",
+    "name": "External Identities",
+    "file": "03338-icon-service-External-Identities.svg"
+  },
+  {
+    "id": "03339",
+    "name": "DevOps Starter",
+    "file": "03339-icon-service-DevOps-Starter.svg"
+  },
+  {
+    "id": "03340",
+    "name": "Identity Secure Score",
+    "file": "03340-icon-service-Identity-Secure-Score.svg"
+  },
+  {
+    "id": "03341",
+    "name": "Azure AD Risky Signins",
+    "file": "03341-icon-service-Azure-AD-Risky-Signins.svg"
+  },
+  {
+    "id": "03341",
+    "name": "Entra Identity Risky Signins",
+    "file": "03341-icon-service-Entra-Identity-Risky-Signins.svg"
+  },
+  {
+    "id": "03342",
+    "name": "Azure AD Risky Users",
+    "file": "03342-icon-service-Azure-AD-Risky-Users.svg"
+  },
+  {
+    "id": "03342",
+    "name": "Entra Identity Risky Users",
+    "file": "03342-icon-service-Entra-Identity-Risky-Users.svg"
+  },
+  {
+    "id": "03343",
+    "name": "Azure AD Authentication Methods",
+    "file": "03343-icon-service-Azure-AD-Authentication-Methods.svg"
+  },
+  {
+    "id": "03344",
+    "name": "Multifactor Authentication",
+    "file": "03344-icon-service-Multifactor-Authentication.svg"
+  },
+  {
+    "id": "03345",
+    "name": "Integration Environments",
+    "file": "03345-icon-service-Integration-Environments.svg"
+  },
+  {
+    "id": "03347",
+    "name": "Azure Programmable Connectivity",
+    "file": "03347-icon-service-Azure-Programmable-Connectivity.svg"
+  },
+  {
+    "id": "033545113",
+    "name": "Kubernetes Hub",
+    "file": "033545113-icon-service-Kubernetes-Hub.svg"
+  },
+  {
+    "id": "03361",
+    "name": "IcM Troubleshooting",
+    "file": "03361-icon-service-IcM-Troubleshooting.svg"
+  },
+  {
+    "id": "03365",
+    "name": "OSConfig",
+    "file": "03365-icon-service-OSConfig.svg"
+  },
+  {
+    "id": "03366",
+    "name": "Resources Provider",
+    "file": "03366-icon-service-Resources-Provider.svg"
+  },
+  {
+    "id": "03368",
+    "name": "DNS Security Policy",
+    "file": "03368-icon-service-DNS-Security-Policy.svg"
+  },
+  {
+    "id": "033745116",
+    "name": "Azure Local",
+    "file": "033745116-icon-service-Azure-Local.svg"
+  },
+  {
+    "id": "033805167",
+    "name": "Azure App Testing",
+    "file": "033805167-icon-service-Azure-App-Testing.svg"
+  },
+  {
+    "id": "03382",
+    "name": "Entra Private Access",
+    "file": "03382-icon-service-Entra-Private-Access.svg"
+  },
+  {
+    "id": "03382",
+    "name": "Private Access",
+    "file": "03382-icon-service-Private-Access.svg"
+  },
+  {
+    "id": "03383",
+    "name": "Entra Internet Access",
+    "file": "03383-icon-service-Entra-Internet-Access.svg"
+  },
+  {
+    "id": "03383",
+    "name": "Internet Access",
+    "file": "03383-icon-service-Internet-Access.svg"
+  },
+  {
+    "id": "03390",
+    "name": "Content Safety",
+    "file": "03390-icon-service-Content-Safety.svg"
+  },
+  {
+    "id": "03393",
+    "name": "Managed DevOps Pools",
+    "file": "03393-icon-service-Managed-DevOps-Pools.svg"
+  },
+  {
+    "id": "03394",
+    "name": "Virtual Enclaves",
+    "file": "03394-icon-service-Virtual-Enclaves.svg"
+  },
+  {
+    "id": "03397",
+    "name": "App Space",
+    "file": "03397-icon-service-App-Space.svg"
+  },
+  {
+    "id": "03399",
+    "name": "AKS Istio",
+    "file": "03399-icon-service-AKS-Istio.svg"
+  },
+  {
+    "id": "03401",
+    "name": "Azure Container Storage",
+    "file": "03401-icon-service-Azure-Container-Storage.svg"
+  },
+  {
+    "id": "03402",
+    "name": "Defender CM Local Manager",
+    "file": "03402-icon-service-Defender-CM-Local-Manager.svg"
+  },
+  {
+    "id": "03403",
+    "name": "Defender External Management",
+    "file": "03403-icon-service-Defender-External-Management.svg"
+  },
+  {
+    "id": "03404",
+    "name": "Defender Freezer Monitor",
+    "file": "03404-icon-service-Defender-Freezer-Monitor.svg"
+  },
+  {
+    "id": "03405",
+    "name": "Defender Historian",
+    "file": "03405-icon-service-Defender-Historian.svg"
+  },
+  {
+    "id": "03406",
+    "name": "Defender HMI",
+    "file": "03406-icon-service-Defender-HMI.svg"
+  },
+  {
+    "id": "03407",
+    "name": "Defender Marquee",
+    "file": "03407-icon-service-Defender-Marquee.svg"
+  },
+  {
+    "id": "03408",
+    "name": "Defender Robot Controller",
+    "file": "03408-icon-service-Defender-Robot-Controller.svg"
+  },
+  {
+    "id": "03409",
+    "name": "Defender Sensor",
+    "file": "03409-icon-service-Defender-Sensor.svg"
+  },
+  {
+    "id": "03410",
+    "name": "Defender Slot",
+    "file": "03410-icon-service-Defender-Slot.svg"
+  },
+  {
+    "id": "03411",
+    "name": "Defender Web Guiding System",
+    "file": "03411-icon-service-Defender-Web-Guiding-System.svg"
+  },
+  {
+    "id": "03412",
+    "name": "Defender DCS Controller",
+    "file": "03412-icon-service-Defender-DCS-Controller.svg"
+  },
+  {
+    "id": "03413",
+    "name": "Defender Distributer Control System",
+    "file": "03413-icon-service-Defender-Distributer-Control-System.svg"
+  },
+  {
+    "id": "03414",
+    "name": "Defender Engineering Station",
+    "file": "03414-icon-service-Defender-Engineering-Station.svg"
+  },
+  {
+    "id": "03415",
+    "name": "Defender Industrial Packaging System",
+    "file": "03415-icon-service-Defender-Industrial-Packaging-System.svg"
+  },
+  {
+    "id": "03416",
+    "name": "Defender Industrial Printer",
+    "file": "03416-icon-service-Defender-Industrial-Printer.svg"
+  },
+  {
+    "id": "03417",
+    "name": "Defender Industrial Scale System",
+    "file": "03417-icon-service-Defender-Industrial-Scale-System.svg"
+  },
+  {
+    "id": "03418",
+    "name": "Defender Industrial Robot",
+    "file": "03418-icon-service-Defender-Industrial-Robot.svg"
+  },
+  {
+    "id": "03419",
+    "name": "Defender Meter",
+    "file": "03419-icon-service-Defender-Meter.svg"
+  },
+  {
+    "id": "03420",
+    "name": "Defender PLC",
+    "file": "03420-icon-service-Defender-PLC.svg"
+  },
+  {
+    "id": "03421",
+    "name": "Defender Pneumatic Device",
+    "file": "03421-icon-service-Defender-Pneumatic-Device.svg"
+  },
+  {
+    "id": "03422",
+    "name": "Defender Programable Board",
+    "file": "03422-icon-service-Defender-Programable-Board.svg"
+  },
+  {
+    "id": "03423",
+    "name": "Defender Relay",
+    "file": "03423-icon-service-Defender-Relay.svg"
+  },
+  {
+    "id": "03424",
+    "name": "Defender RTU",
+    "file": "03424-icon-service-Defender-RTU.svg"
+  },
+  {
+    "id": "03425",
+    "name": "external id",
+    "file": "03425-icon-service-external-id.svg"
+  },
+  {
+    "id": "034251",
+    "name": "external id modified",
+    "file": "034251-icon-service-external-id-modified.svg"
+  },
+  {
+    "id": "03438",
+    "name": "Azure OpenAI",
+    "file": "03438-icon-service-Azure-OpenAI.svg"
+  },
+  {
+    "id": "034412066",
+    "name": "VNet Appliance",
+    "file": "034412066-icon-service-VNet-Appliance.svg"
+  },
+  {
+    "id": "03455",
+    "name": "Code Optimization",
+    "file": "03455-icon-service-Code-Optimization.svg"
+  },
+  {
+    "id": "03459",
+    "name": "DNS Multistack",
+    "file": "03459-icon-service-DNS-Multistack.svg"
+  },
+  {
+    "id": "03460",
+    "name": "ATM Multistack",
+    "file": "03460-icon-service-ATM-Multistack.svg"
+  },
+  {
+    "id": "03461",
+    "name": "IP Address manager",
+    "file": "03461-icon-service-IP-Address-manager.svg"
+  },
+  {
+    "id": "03466",
+    "name": "Stack HCI Premium",
+    "file": "03466-icon-service-Stack-HCI-Premium.svg"
+  },
+  {
+    "id": "03468",
+    "name": "HDI AKS Cluster",
+    "file": "03468-icon-service-HDI-AKS-Cluster.svg"
+  },
+  {
+    "id": "03485",
+    "name": "Azure IoT Operations",
+    "file": "03485-icon-service-Azure-IoT-Operations.svg"
+  },
+  {
+    "id": "034855501",
+    "name": "Monitor Issues",
+    "file": "034855501-icon-service-Monitor-Issues.svg"
+  },
+  {
+    "id": "03487",
+    "name": "Compute Fleet",
+    "file": "03487-icon-service-Compute-Fleet.svg"
+  },
+  {
+    "id": "03490",
+    "name": "Oracle Database",
+    "file": "03490-icon-service-Oracle-Database.svg"
+  },
+  {
+    "id": "03495",
+    "name": "Azure Consumption Commitment",
+    "file": "03495-icon-service-Azure-Consumption-Commitment.svg"
+  },
+  {
+    "id": "03502",
+    "name": "Storage Actions",
+    "file": "03502-icon-service-Storage-Actions.svg"
+  },
+  {
+    "id": "03513",
+    "name": "AI Studio",
+    "file": "03513-icon-service-AI-Studio.svg"
+  },
+  {
+    "id": "03521",
+    "name": "Edge Storage Accelerator",
+    "file": "03521-icon-service-Edge-Storage-Accelerator.svg"
+  },
+  {
+    "id": "03528",
+    "name": "Monitor Health Models",
+    "file": "03528-icon-service-Monitor-Health-Models.svg"
+  },
+  {
+    "id": "03533",
+    "name": "Entra Connect Sync",
+    "file": "03533-icon-service-Entra-Connect-Sync.svg"
+  },
+  {
+    "id": "03543",
+    "name": "AKS Automatic",
+    "file": "03543-icon-service-AKS-Automatic.svg"
+  },
+  {
+    "id": "03549",
+    "name": "Managed File Shares",
+    "file": "03549-icon-service-Managed-File-Shares.svg"
+  },
+  {
+    "id": "035572279",
+    "name": "Operation Center",
+    "file": "035572279-icon-service-Operation-Center.svg"
+  },
+  {
+    "id": "03563",
+    "name": "WAC Installer",
+    "file": "03563-icon-service-WAC-Installer.svg"
+  },
+  {
+    "id": "03565",
+    "name": "SQL Database Fleet Manager",
+    "file": "03565-icon-service-SQL-Database-Fleet-Manager.svg"
+  },
+  {
+    "id": "03585",
+    "name": "Azure Monitor Pipeline",
+    "file": "03585-icon-service-Azure-Monitor-Pipeline.svg"
+  },
+  {
+    "id": "03595",
+    "name": "App Space Component",
+    "file": "03595-icon-service-App-Space-Component.svg"
+  },
+  {
+    "id": "03623",
+    "name": "Workspace Gateway",
+    "file": "03623-icon-service-Workspace-Gateway.svg"
+  },
+  {
+    "id": "03633",
+    "name": "Breeze",
+    "file": "03633-icon-service-Breeze.svg"
+  },
+  {
+    "id": "03637",
+    "name": "Business Process Tracking",
+    "file": "03637-icon-service-Business-Process-Tracking.svg"
+  },
+  {
+    "id": "03643",
+    "name": "Network Foundation Hub",
+    "file": "03643-icon-service-Network-Foundation-Hub.svg"
+  },
+  {
+    "id": "03645",
+    "name": "Azure Linux",
+    "file": "03645-icon-service-Azure-Linux.svg"
+  },
+  {
+    "id": "03650",
+    "name": "Network Security Hub",
+    "file": "03650-icon-service-Network-Security-Hub.svg"
+  },
+  {
+    "id": "03656",
+    "name": "Hybrid Connectivity Hub",
+    "file": "03656-icon-service-Hybrid-Connectivity-Hub.svg"
+  },
+  {
+    "id": "03675",
+    "name": "Azure Managed Redis",
+    "file": "03675-icon-service-Azure-Managed-Redis.svg"
+  },
+  {
+    "id": "03687",
+    "name": "AI at Edge",
+    "file": "03687-icon-service-AI-at-Edge.svg"
+  },
+  {
+    "id": "03694",
+    "name": "VPNClientWindows",
+    "file": "03694-icon-service-VPNClientWindows.svg"
+  },
+  {
+    "id": "03755",
+    "name": "Planetary Computer Pro",
+    "file": "03755-icon-service-Planetary-Computer-Pro.svg"
+  },
+  {
+    "id": "10001",
+    "name": "All Resources",
+    "file": "10001-icon-service-All-Resources.svg"
+  },
+  {
+    "id": "10002",
+    "name": "Subscriptions",
+    "file": "10002-icon-service-Subscriptions.svg"
+  },
+  {
+    "id": "10003",
+    "name": "Reservations",
+    "file": "10003-icon-service-Reservations.svg"
+  },
+  {
+    "id": "10004",
+    "name": "Service Health",
+    "file": "10004-icon-service-Service-Health.svg"
+  },
+  {
+    "id": "10005",
+    "name": "Information",
+    "file": "10005-icon-service-Information.svg"
+  },
+  {
+    "id": "10006",
+    "name": "Recent",
+    "file": "10006-icon-service-Recent.svg"
+  },
+  {
+    "id": "10007",
+    "name": "Resource Groups",
+    "file": "10007-icon-service-Resource-Groups.svg"
+  },
+  {
+    "id": "10008",
+    "name": "Marketplace",
+    "file": "10008-icon-service-Marketplace.svg"
+  },
+  {
+    "id": "10009",
+    "name": "Templates",
+    "file": "10009-icon-service-Templates.svg"
+  },
+  {
+    "id": "10010",
+    "name": "Quickstart Center",
+    "file": "10010-icon-service-Quickstart-Center.svg"
+  },
+  {
+    "id": "10011",
+    "name": "Management Groups",
+    "file": "10011-icon-service-Management-Groups.svg"
+  },
+  {
+    "id": "10013",
+    "name": "Help and Support",
+    "file": "10013-icon-service-Help-and-Support.svg"
+  },
+  {
+    "id": "10014",
+    "name": "Tag",
+    "file": "10014-icon-service-Tag.svg"
+  },
+  {
+    "id": "10015",
+    "name": "Dashboard",
+    "file": "10015-icon-service-Dashboard.svg"
+  },
+  {
+    "id": "10016",
+    "name": "Free Services",
+    "file": "10016-icon-service-Free-Services.svg"
+  },
+  {
+    "id": "10018",
+    "name": "Azure A",
+    "file": "10018-icon-service-Azure-A.svg"
+  },
+  {
+    "id": "10019",
+    "name": "Cost Management",
+    "file": "10019-icon-service-Cost-Management.svg"
+  },
+  {
+    "id": "10021",
+    "name": "Virtual Machine",
+    "file": "10021-icon-service-Virtual-Machine.svg"
+  },
+  {
+    "id": "10023",
+    "name": "Kubernetes Services",
+    "file": "10023-icon-service-Kubernetes-Services.svg"
+  },
+  {
+    "id": "10024",
+    "name": "Mesh Applications",
+    "file": "10024-icon-service-Mesh-Applications.svg"
+  },
+  {
+    "id": "10025",
+    "name": "Availability Sets",
+    "file": "10025-icon-service-Availability-Sets.svg"
+  },
+  {
+    "id": "10026",
+    "name": "Disks Snapshots",
+    "file": "10026-icon-service-Disks-Snapshots.svg"
+  },
+  {
+    "id": "10027",
+    "name": "OS Images (Classic)",
+    "file": "10027-icon-service-OS-Images-(Classic).svg"
+  },
+  {
+    "id": "10028",
+    "name": "Virtual Machines (Classic)",
+    "file": "10028-icon-service-Virtual-Machines-(Classic).svg"
+  },
+  {
+    "id": "10029",
+    "name": "Function Apps",
+    "file": "10029-icon-service-Function-Apps.svg"
+  },
+  {
+    "id": "10030",
+    "name": "Cloud Services (Classic)",
+    "file": "10030-icon-service-Cloud-Services-(Classic).svg"
+  },
+  {
+    "id": "10031",
+    "name": "Batch Accounts",
+    "file": "10031-icon-service-Batch-Accounts.svg"
+  },
+  {
+    "id": "10032",
+    "name": "Disks",
+    "file": "10032-icon-service-Disks.svg"
+  },
+  {
+    "id": "10033",
+    "name": "Images",
+    "file": "10033-icon-service-Images.svg"
+  },
+  {
+    "id": "10034",
+    "name": "VM Scale Sets",
+    "file": "10034-icon-service-VM-Scale-Sets.svg"
+  },
+  {
+    "id": "10035",
+    "name": "App Services",
+    "file": "10035-icon-service-App-Services.svg"
+  },
+  {
+    "id": "10036",
+    "name": "Service Fabric Clusters",
+    "file": "10036-icon-service-Service-Fabric-Clusters.svg"
+  },
+  {
+    "id": "10037",
+    "name": "Image Definitions",
+    "file": "10037-icon-service-Image-Definitions.svg"
+  },
+  {
+    "id": "10038",
+    "name": "Image Versions",
+    "file": "10038-icon-service-Image-Versions.svg"
+  },
+  {
+    "id": "10039",
+    "name": "Shared Image Galleries",
+    "file": "10039-icon-service-Shared-Image-Galleries.svg"
+  },
+  {
+    "id": "10040",
+    "name": "VM Images (Classic)",
+    "file": "10040-icon-service-VM-Images-(Classic).svg"
+  },
+  {
+    "id": "10041",
+    "name": "Disks (Classic)",
+    "file": "10041-icon-service-Disks-(Classic).svg"
+  },
+  {
+    "id": "10042",
+    "name": "API Management Services",
+    "file": "10042-icon-service-API-Management-Services.svg"
+  },
+  {
+    "id": "10044",
+    "name": "Cognitive Search",
+    "file": "10044-icon-service-Cognitive-Search.svg"
+  },
+  {
+    "id": "10045",
+    "name": "Notification Hubs",
+    "file": "10045-icon-service-Notification-Hubs.svg"
+  },
+  {
+    "id": "10047",
+    "name": "App Service Environments",
+    "file": "10047-icon-service-App-Service-Environments.svg"
+  },
+  {
+    "id": "10048",
+    "name": "API Connections",
+    "file": "10048-icon-service-API-Connections.svg"
+  },
+  {
+    "id": "10049",
+    "name": "Container Services (Deprecated)",
+    "file": "10049-icon-service-Container-Services-(Deprecated).svg"
+  },
+  {
+    "id": "10052",
+    "name": "SignalR",
+    "file": "10052-icon-service-SignalR.svg"
+  },
+  {
+    "id": "10053",
+    "name": "Notification Hub Namespaces",
+    "file": "10053-icon-service-Notification-Hub-Namespaces.svg"
+  },
+  {
+    "id": "10061",
+    "name": "Virtual Networks",
+    "file": "10061-icon-service-Virtual-Networks.svg"
+  },
+  {
+    "id": "10062",
+    "name": "Load Balancers",
+    "file": "10062-icon-service-Load-Balancers.svg"
+  },
+  {
+    "id": "10063",
+    "name": "Virtual Network Gateways",
+    "file": "10063-icon-service-Virtual-Network-Gateways.svg"
+  },
+  {
+    "id": "10064",
+    "name": "DNS Zones",
+    "file": "10064-icon-service-DNS-Zones.svg"
+  },
+  {
+    "id": "10065",
+    "name": "Traffic Manager Profiles",
+    "file": "10065-icon-service-Traffic-Manager-Profiles.svg"
+  },
+  {
+    "id": "10066",
+    "name": "Network Watcher",
+    "file": "10066-icon-service-Network-Watcher.svg"
+  },
+  {
+    "id": "10067",
+    "name": "Network Security Groups",
+    "file": "10067-icon-service-Network-Security-Groups.svg"
+  },
+  {
+    "id": "10068",
+    "name": "Public IP Addresses (Classic)",
+    "file": "10068-icon-service-Public-IP-Addresses-(Classic).svg"
+  },
+  {
+    "id": "10069",
+    "name": "Public IP Addresses",
+    "file": "10069-icon-service-Public-IP-Addresses.svg"
+  },
+  {
+    "id": "10070",
+    "name": "On Premises Data Gateways",
+    "file": "10070-icon-service-On-Premises-Data-Gateways.svg"
+  },
+  {
+    "id": "10071",
+    "name": "Route Filters",
+    "file": "10071-icon-service-Route-Filters.svg"
+  },
+  {
+    "id": "10072",
+    "name": "DDoS Protection Plans",
+    "file": "10072-icon-service-DDoS-Protection-Plans.svg"
+  },
+  {
+    "id": "10073",
+    "name": "Front Door and CDN Profiles",
+    "file": "10073-icon-service-Front-Door-and-CDN-Profiles.svg"
+  },
+  {
+    "id": "10075",
+    "name": "Virtual Networks (Classic)",
+    "file": "10075-icon-service-Virtual-Networks-(Classic).svg"
+  },
+  {
+    "id": "10076",
+    "name": "Application Gateways",
+    "file": "10076-icon-service-Application-Gateways.svg"
+  },
+  {
+    "id": "10077",
+    "name": "Local Network Gateways",
+    "file": "10077-icon-service-Local-Network-Gateways.svg"
+  },
+  {
+    "id": "10079",
+    "name": "ExpressRoute Circuits",
+    "file": "10079-icon-service-ExpressRoute-Circuits.svg"
+  },
+  {
+    "id": "10080",
+    "name": "Network Interfaces",
+    "file": "10080-icon-service-Network-Interfaces.svg"
+  },
+  {
+    "id": "10081",
+    "name": "Connections",
+    "file": "10081-icon-service-Connections.svg"
+  },
+  {
+    "id": "10082",
+    "name": "Route Tables",
+    "file": "10082-icon-service-Route-Tables.svg"
+  },
+  {
+    "id": "10084",
+    "name": "Firewalls",
+    "file": "10084-icon-service-Firewalls.svg"
+  },
+  {
+    "id": "10085",
+    "name": "Service Endpoint Policies",
+    "file": "10085-icon-service-Service-Endpoint-Policies.svg"
+  },
+  {
+    "id": "10086",
+    "name": "Storage Accounts",
+    "file": "10086-icon-service-Storage-Accounts.svg"
+  },
+  {
+    "id": "10087",
+    "name": "Storage Accounts (Classic)",
+    "file": "10087-icon-service-Storage-Accounts-(Classic).svg"
+  },
+  {
+    "id": "10089",
+    "name": "StorSimple Device Managers",
+    "file": "10089-icon-service-StorSimple-Device-Managers.svg"
+  },
+  {
+    "id": "10090",
+    "name": "Data Lake Storage Gen1",
+    "file": "10090-icon-service-Data-Lake-Storage-Gen1.svg"
+  },
+  {
+    "id": "10091",
+    "name": "Storage Explorer",
+    "file": "10091-icon-service-Storage-Explorer.svg"
+  },
+  {
+    "id": "10092",
+    "name": "StorSimple Data Managers",
+    "file": "10092-icon-service-StorSimple-Data-Managers.svg"
+  },
+  {
+    "id": "10093",
+    "name": "Storage Sync Services",
+    "file": "10093-icon-service-Storage-Sync-Services.svg"
+  },
+  {
+    "id": "10094",
+    "name": "Data Box",
+    "file": "10094-icon-service-Data-Box.svg"
+  },
+  {
+    "id": "10095",
+    "name": "Azure Stack Edge",
+    "file": "10095-icon-service-Azure-Stack-Edge.svg"
+  },
+  {
+    "id": "10096",
+    "name": "Azure NetApp Files",
+    "file": "10096-icon-service-Azure-NetApp-Files.svg"
+  },
+  {
+    "id": "10097",
+    "name": "Data Share Invitations",
+    "file": "10097-icon-service-Data-Share-Invitations.svg"
+  },
+  {
+    "id": "10098",
+    "name": "Data Shares",
+    "file": "10098-icon-service-Data-Shares.svg"
+  },
+  {
+    "id": "10100",
+    "name": "Import Export Jobs",
+    "file": "10100-icon-service-Import-Export-Jobs.svg"
+  },
+  {
+    "id": "10104",
+    "name": "Container Instances",
+    "file": "10104-icon-service-Container-Instances.svg"
+  },
+  {
+    "id": "10105",
+    "name": "Container Registries",
+    "file": "10105-icon-service-Container-Registries.svg"
+  },
+  {
+    "id": "10108",
+    "name": "Infrastructure Backup",
+    "file": "10108-icon-service-Infrastructure-Backup.svg"
+  },
+  {
+    "id": "10109",
+    "name": "Capacity",
+    "file": "10109-icon-service-Capacity.svg"
+  },
+  {
+    "id": "10110",
+    "name": "Offers",
+    "file": "10110-icon-service-Offers.svg"
+  },
+  {
+    "id": "10111",
+    "name": "User Subscriptions",
+    "file": "10111-icon-service-User-Subscriptions.svg"
+  },
+  {
+    "id": "10112",
+    "name": "Marketplace Management",
+    "file": "10112-icon-service-Marketplace-Management.svg"
+  },
+  {
+    "id": "10113",
+    "name": "Plans",
+    "file": "10113-icon-service-Plans.svg"
+  },
+  {
+    "id": "10114",
+    "name": "Azure Stack",
+    "file": "10114-icon-service-Azure-Stack.svg"
+  },
+  {
+    "id": "10115",
+    "name": "Updates",
+    "file": "10115-icon-service-Updates.svg"
+  },
+  {
+    "id": "10116",
+    "name": "Region Management",
+    "file": "10116-icon-service-Region-Management.svg"
+  },
+  {
+    "id": "10117",
+    "name": "Edge Management",
+    "file": "10117-icon-service-Edge-Management.svg"
+  },
+  {
+    "id": "10121",
+    "name": "Azure Cosmos DB",
+    "file": "10121-icon-service-Azure-Cosmos-DB.svg"
+  },
+  {
+    "id": "10122",
+    "name": "Azure Database MySQL Server",
+    "file": "10122-icon-service-Azure-Database-MySQL-Server.svg"
+  },
+  {
+    "id": "10123",
+    "name": "Azure Database MariaDB Server",
+    "file": "10123-icon-service-Azure-Database-MariaDB-Server.svg"
+  },
+  {
+    "id": "10124",
+    "name": "Azure SQL VM",
+    "file": "10124-icon-service-Azure-SQL-VM.svg"
+  },
+  {
+    "id": "10126",
+    "name": "Data Factories",
+    "file": "10126-icon-service-Data-Factories.svg"
+  },
+  {
+    "id": "10127",
+    "name": "Virtual Clusters",
+    "file": "10127-icon-service-Virtual-Clusters.svg"
+  },
+  {
+    "id": "10128",
+    "name": "Elastic Job Agents",
+    "file": "10128-icon-service-Elastic-Job-Agents.svg"
+  },
+  {
+    "id": "10130",
+    "name": "SQL Database",
+    "file": "10130-icon-service-SQL-Database.svg"
+  },
+  {
+    "id": "10131",
+    "name": "Azure Database PostgreSQL Server",
+    "file": "10131-icon-service-Azure-Database-PostgreSQL-Server.svg"
+  },
+  {
+    "id": "10132",
+    "name": "SQL Server",
+    "file": "10132-icon-service-SQL-Server.svg"
+  },
+  {
+    "id": "10133",
+    "name": "Azure Database Migration Services",
+    "file": "10133-icon-service-Azure-Database-Migration-Services.svg"
+  },
+  {
+    "id": "10134",
+    "name": "SQL Elastic Pools",
+    "file": "10134-icon-service-SQL-Elastic-Pools.svg"
+  },
+  {
+    "id": "10135",
+    "name": "Managed Database",
+    "file": "10135-icon-service-Managed-Database.svg"
+  },
+  {
+    "id": "10136",
+    "name": "SQL Managed Instance",
+    "file": "10136-icon-service-SQL-Managed-Instance.svg"
+  },
+  {
+    "id": "10137",
+    "name": "Azure SQL Server Stretch Databases",
+    "file": "10137-icon-service-Azure-SQL-Server-Stretch-Databases.svg"
+  },
+  {
+    "id": "10137",
+    "name": "Cache Redis",
+    "file": "10137-icon-service-Cache-Redis.svg"
+  },
+  {
+    "id": "10139",
+    "name": "Instance Pools",
+    "file": "10139-icon-service-Instance-Pools.svg"
+  },
+  {
+    "id": "10142",
+    "name": "HD Insight Clusters",
+    "file": "10142-icon-service-HD-Insight-Clusters.svg"
+  },
+  {
+    "id": "10143",
+    "name": "Data Lake Analytics",
+    "file": "10143-icon-service-Data-Lake-Analytics.svg"
+  },
+  {
+    "id": "10145",
+    "name": "Azure Data Explorer Clusters",
+    "file": "10145-icon-service-Azure-Data-Explorer-Clusters.svg"
+  },
+  {
+    "id": "10148",
+    "name": "Analysis Services",
+    "file": "10148-icon-service-Analysis-Services.svg"
+  },
+  {
+    "id": "10149",
+    "name": "Event Hub Clusters",
+    "file": "10149-icon-service-Event-Hub-Clusters.svg"
+  },
+  {
+    "id": "10150",
+    "name": "Data Lake Store Gen1",
+    "file": "10150-icon-service-Data-Lake-Store-Gen1.svg"
+  },
+  {
+    "id": "10162",
+    "name": "Cognitive Services",
+    "file": "10162-icon-service-Cognitive-Services.svg"
+  },
+  {
+    "id": "10164",
+    "name": "Genomics Accounts",
+    "file": "10164-icon-service-Genomics-Accounts.svg"
+  },
+  {
+    "id": "10165",
+    "name": "Bot Services",
+    "file": "10165-icon-service-Bot-Services.svg"
+  },
+  {
+    "id": "10166",
+    "name": "Machine Learning",
+    "file": "10166-icon-service-Machine-Learning.svg"
+  },
+  {
+    "id": "10167",
+    "name": "Machine Learning Studio Workspaces",
+    "file": "10167-icon-service-Machine-Learning-Studio-Workspaces.svg"
+  },
+  {
+    "id": "10168",
+    "name": "Machine Learning Studio Web Service Plans",
+    "file": "10168-icon-service-Machine-Learning-Studio-Web-Service-Plans.svg"
+  },
+  {
+    "id": "10181",
+    "name": "Time Series Insights Environments",
+    "file": "10181-icon-service-Time-Series-Insights-Environments.svg"
+  },
+  {
+    "id": "10182",
+    "name": "IoT Hub",
+    "file": "10182-icon-service-IoT-Hub.svg"
+  },
+  {
+    "id": "10184",
+    "name": "IoT Central Applications",
+    "file": "10184-icon-service-IoT-Central-Applications.svg"
+  },
+  {
+    "id": "10185",
+    "name": "Azure Maps Accounts",
+    "file": "10185-icon-service-Azure-Maps-Accounts.svg"
+  },
+  {
+    "id": "10186",
+    "name": "IoT Edge",
+    "file": "10186-icon-service-IoT-Edge.svg"
+  },
+  {
+    "id": "10188",
+    "name": "Time Series Insights Event Sources",
+    "file": "10188-icon-service-Time-Series-Insights-Event-Sources.svg"
+  },
+  {
+    "id": "10190",
+    "name": "Azure Sphere",
+    "file": "10190-icon-service-Azure-Sphere.svg"
+  },
+  {
+    "id": "10192",
+    "name": "Time Series Insights Access Policies",
+    "file": "10192-icon-service-Time-Series-Insights-Access-Policies.svg"
+  },
+  {
+    "id": "10198",
+    "name": "Time Series Data Sets",
+    "file": "10198-icon-service-Time-Series-Data-Sets.svg"
+  },
+  {
+    "id": "10203",
+    "name": "Windows10 Core Services",
+    "file": "10203-icon-service-Windows10-Core-Services.svg"
+  },
+  {
+    "id": "10206",
+    "name": "Event Grid Topics",
+    "file": "10206-icon-service-Event-Grid-Topics.svg"
+  },
+  {
+    "id": "10209",
+    "name": "Relays",
+    "file": "10209-icon-service-Relays.svg"
+  },
+  {
+    "id": "10210",
+    "name": "Blockchain Applications",
+    "file": "10210-icon-service-Blockchain-Applications.svg"
+  },
+  {
+    "id": "10212",
+    "name": "Azure API for FHIR",
+    "file": "10212-icon-service-Azure-API-for-FHIR.svg"
+  },
+  {
+    "id": "10213",
+    "name": "Software as a Service",
+    "file": "10213-icon-service-Software-as-a-Service.svg"
+  },
+  {
+    "id": "10215",
+    "name": "Event Grid Domains",
+    "file": "10215-icon-service-Event-Grid-Domains.svg"
+  },
+  {
+    "id": "10216",
+    "name": "Azure Data Catalog",
+    "file": "10216-icon-service-Azure-Data-Catalog.svg"
+  },
+  {
+    "id": "10218",
+    "name": "Integration Accounts",
+    "file": "10218-icon-service-Integration-Accounts.svg"
+  },
+  {
+    "id": "10219",
+    "name": "App Configuration",
+    "file": "10219-icon-service-App-Configuration.svg"
+  },
+  {
+    "id": "10220",
+    "name": "SendGrid Accounts",
+    "file": "10220-icon-service-SendGrid-Accounts.svg"
+  },
+  {
+    "id": "10221",
+    "name": "Azure Active Directory",
+    "file": "10221-icon-service-Azure-Active-Directory.svg"
+  },
+  {
+    "id": "10221",
+    "name": "Event Grid Subscriptions",
+    "file": "10221-icon-service-Event-Grid-Subscriptions.svg"
+  },
+  {
+    "id": "10222",
+    "name": "Azure AD Domain Services",
+    "file": "10222-icon-service-Azure-AD-Domain-Services.svg"
+  },
+  {
+    "id": "10222",
+    "name": "Entra Domain Services",
+    "file": "10222-icon-service-Entra-Domain-Services.svg"
+  },
+  {
+    "id": "10223",
+    "name": "Groups",
+    "file": "10223-icon-service-Groups.svg"
+  },
+  {
+    "id": "10224",
+    "name": "Active Directory Connect Health",
+    "file": "10224-icon-service-Active-Directory-Connect-Health.svg"
+  },
+  {
+    "id": "10224",
+    "name": "Entra Connect Health",
+    "file": "10224-icon-service-Entra-Connect-Health.svg"
+  },
+  {
+    "id": "10225",
+    "name": "Enterprise Applications",
+    "file": "10225-icon-service-Enterprise-Applications.svg"
+  },
+  {
+    "id": "10227",
+    "name": "Entra Managed Identities",
+    "file": "10227-icon-service-Entra-Managed-Identities.svg"
+  },
+  {
+    "id": "10227",
+    "name": "Managed Identities",
+    "file": "10227-icon-service-Managed-Identities.svg"
+  },
+  {
+    "id": "10228",
+    "name": "Azure AD B2C",
+    "file": "10228-icon-service-Azure-AD-B2C.svg"
+  },
+  {
+    "id": "10229",
+    "name": "Azure Information Protection",
+    "file": "10229-icon-service-Azure-Information-Protection.svg"
+  },
+  {
+    "id": "10230",
+    "name": "Users",
+    "file": "10230-icon-service-Users.svg"
+  },
+  {
+    "id": "10231",
+    "name": "Azure AD Identity Protection",
+    "file": "10231-icon-service-Azure-AD-Identity-Protection.svg"
+  },
+  {
+    "id": "10231",
+    "name": "Entra ID Protection",
+    "file": "10231-icon-service-Entra-ID-Protection.svg"
+  },
+  {
+    "id": "10232",
+    "name": "App Registrations",
+    "file": "10232-icon-service-App-Registrations.svg"
+  },
+  {
+    "id": "10233",
+    "name": "Conditional Access",
+    "file": "10233-icon-service-Conditional-Access.svg"
+  },
+  {
+    "id": "10234",
+    "name": "Azure AD Privilege Identity Management",
+    "file": "10234-icon-service-Azure-AD-Privilege-Identity-Management.svg"
+  },
+  {
+    "id": "10235",
+    "name": "Identity Governance",
+    "file": "10235-icon-service-Identity-Governance.svg"
+  },
+  {
+    "id": "10241",
+    "name": "Microsoft Defender for Cloud",
+    "file": "10241-icon-service-Microsoft-Defender-for-Cloud.svg"
+  },
+  {
+    "id": "10244",
+    "name": "Application Security Groups",
+    "file": "10244-icon-service-Application-Security-Groups.svg"
+  },
+  {
+    "id": "10245",
+    "name": "Key Vaults",
+    "file": "10245-icon-service-Key-Vaults.svg"
+  },
+  {
+    "id": "10248",
+    "name": "Azure Sentinel",
+    "file": "10248-icon-service-Azure-Sentinel.svg"
+  },
+  {
+    "id": "10261",
+    "name": "Azure DevOps",
+    "file": "10261-icon-service-Azure-DevOps.svg"
+  },
+  {
+    "id": "10264",
+    "name": "DevTest Labs",
+    "file": "10264-icon-service-DevTest-Labs.svg"
+  },
+  {
+    "id": "10265",
+    "name": "Lab Services",
+    "file": "10265-icon-service-Lab-Services.svg"
+  },
+  {
+    "id": "10281",
+    "name": "Azure Migrate",
+    "file": "10281-icon-service-Azure-Migrate.svg"
+  },
+  {
+    "id": "10303",
+    "name": "User Privacy",
+    "file": "10303-icon-service-User-Privacy.svg"
+  },
+  {
+    "id": "10309",
+    "name": "Azure Media Service",
+    "file": "10309-icon-service-Azure-Media-Service.svg"
+  },
+  {
+    "id": "10310",
+    "name": "NAT",
+    "file": "10310-icon-service-NAT.svg"
+  },
+  {
+    "id": "10311",
+    "name": "Managed Desktop",
+    "file": "10311-icon-service-Managed-Desktop.svg"
+  },
+  {
+    "id": "10313",
+    "name": "Managed Applications Center",
+    "file": "10313-icon-service-Managed-Applications-Center.svg"
+  },
+  {
+    "id": "10314",
+    "name": "Customer Lockbox for Microsoft Azure",
+    "file": "10314-icon-service-Customer-Lockbox-for-Microsoft-Azure.svg"
+  },
+  {
+    "id": "10316",
+    "name": "Policy",
+    "file": "10316-icon-service-Policy.svg"
+  },
+  {
+    "id": "10318",
+    "name": "Resource Graph Explorer",
+    "file": "10318-icon-service-Resource-Graph-Explorer.svg"
+  },
+  {
+    "id": "10329",
+    "name": "Intune",
+    "file": "10329-icon-service-Intune.svg"
+  },
+  {
+    "id": "10330",
+    "name": "eBooks",
+    "file": "10330-icon-service-eBooks.svg"
+  },
+  {
+    "id": "10331",
+    "name": "Client Apps",
+    "file": "10331-icon-service-Client-Apps.svg"
+  },
+  {
+    "id": "10332",
+    "name": "Devices",
+    "file": "10332-icon-service-Devices.svg"
+  },
+  {
+    "id": "10333",
+    "name": "Device Compliance",
+    "file": "10333-icon-service-Device-Compliance.svg"
+  },
+  {
+    "id": "10334",
+    "name": "Exchange On Premises Access",
+    "file": "10334-icon-service-Exchange-On-Premises-Access.svg"
+  },
+  {
+    "id": "10335",
+    "name": "Software Updates",
+    "file": "10335-icon-service-Software-Updates.svg"
+  },
+  {
+    "id": "10336",
+    "name": "Security Baselines",
+    "file": "10336-icon-service-Security-Baselines.svg"
+  },
+  {
+    "id": "10337",
+    "name": "Device Enrollment",
+    "file": "10337-icon-service-Device-Enrollment.svg"
+  },
+  {
+    "id": "10338",
+    "name": "Device Configuration",
+    "file": "10338-icon-service-Device-Configuration.svg"
+  },
+  {
+    "id": "10339",
+    "name": "Exchange Access",
+    "file": "10339-icon-service-Exchange-Access.svg"
+  },
+  {
+    "id": "10340",
+    "name": "Azure AD Roles and Administrators",
+    "file": "10340-icon-service-Azure-AD-Roles-and-Administrators.svg"
+  },
+  {
+    "id": "10340",
+    "name": "Entra Identity Roles and Administrators",
+    "file": "10340-icon-service-Entra-Identity-Roles-and-Administrators.svg"
+  },
+  {
+    "id": "10341",
+    "name": "Troubleshoot",
+    "file": "10341-icon-service-Troubleshoot.svg"
+  },
+  {
+    "id": "10342",
+    "name": "Tenant Status",
+    "file": "10342-icon-service-Tenant-Status.svg"
+  },
+  {
+    "id": "10343",
+    "name": "Intune For Education",
+    "file": "10343-icon-service-Intune-For-Education.svg"
+  },
+  {
+    "id": "10344",
+    "name": "Intune App Protection",
+    "file": "10344-icon-service-Intune-App-Protection.svg"
+  },
+  {
+    "id": "10346",
+    "name": "Host Groups",
+    "file": "10346-icon-service-Host-Groups.svg"
+  },
+  {
+    "id": "10347",
+    "name": "Hosts",
+    "file": "10347-icon-service-Hosts.svg"
+  },
+  {
+    "id": "10349",
+    "name": "Resource Explorer",
+    "file": "10349-icon-service-Resource-Explorer.svg"
+  },
+  {
+    "id": "10350",
+    "name": "Mindaro",
+    "file": "10350-icon-service-Mindaro.svg"
+  },
+  {
+    "id": "10351",
+    "name": "SQL Server Registries",
+    "file": "10351-icon-service-SQL-Server-Registries.svg"
+  },
+  {
+    "id": "10352",
+    "name": "Spatial Anchor Accounts",
+    "file": "10352-icon-service-Spatial-Anchor-Accounts.svg"
+  },
+  {
+    "id": "10353",
+    "name": "Virtual WANs",
+    "file": "10353-icon-service-Virtual-WANs.svg"
+  },
+  {
+    "id": "10355",
+    "name": "WAC",
+    "file": "10355-icon-service-WAC.svg"
+  },
+  {
+    "id": "10362",
+    "name": "Web Application Firewall Policies(WAF)",
+    "file": "10362-icon-service-Web-Application-Firewall-Policies(WAF).svg"
+  },
+  {
+    "id": "10363",
+    "name": "Logic Apps Custom Connector",
+    "file": "10363-icon-service-Logic-Apps-Custom-Connector.svg"
+  },
+  {
+    "id": "10364",
+    "name": "Outbound Connection",
+    "file": "10364-icon-service-Outbound-Connection.svg"
+  },
+  {
+    "id": "10365",
+    "name": "Proximity Placement Groups",
+    "file": "10365-icon-service-Proximity-Placement-Groups.svg"
+  },
+  {
+    "id": "10366",
+    "name": "Azure Blockchain Service",
+    "file": "10366-icon-service-Azure-Blockchain-Service.svg"
+  },
+  {
+    "id": "10367",
+    "name": "Azure Token Service",
+    "file": "10367-icon-service-Azure-Token-Service.svg"
+  },
+  {
+    "id": "10369",
+    "name": "Device Provisioning Services",
+    "file": "10369-icon-service-Device-Provisioning-Services.svg"
+  },
+  {
+    "id": "10370",
+    "name": "Azure Spring Apps",
+    "file": "10370-icon-service-Azure-Spring-Apps.svg"
+  },
+  {
+    "id": "10371",
+    "name": "Reserved IP Addresses (Classic)",
+    "file": "10371-icon-service-Reserved-IP-Addresses-(Classic).svg"
+  },
+  {
+    "id": "10372",
+    "name": "Public IP Prefixes",
+    "file": "10372-icon-service-Public-IP-Prefixes.svg"
+  },
+  {
+    "id": "10374",
+    "name": "ABS Member",
+    "file": "10374-icon-service-ABS-Member.svg"
+  },
+  {
+    "id": "10375",
+    "name": "Consortium",
+    "file": "10375-icon-service-Consortium.svg"
+  },
+  {
+    "id": "10400",
+    "name": "Azure Fileshares",
+    "file": "10400-icon-service-Azure-Fileshares.svg"
+  },
+  {
+    "id": "10422",
+    "name": "AzureAttestation",
+    "file": "10422-icon-service-AzureAttestation.svg"
+  },
+  {
+    "id": "10433",
+    "name": "User Settings",
+    "file": "10433-icon-service-User-Settings.svg"
+  },
+  {
+    "id": "10450",
+    "name": "MachinesAzureArc",
+    "file": "10450-icon-service-MachinesAzureArc.svg"
+  },
+  {
+    "id": "10572",
+    "name": "ExtendedSecurityUpdates",
+    "file": "10572-icon-service-ExtendedSecurityUpdates.svg"
+  },
+  {
+    "id": "10778",
+    "name": "RTOS",
+    "file": "10778-icon-service-RTOS.svg"
+  },
+  {
+    "id": "10779",
+    "name": "Biz Talk",
+    "file": "10779-icon-service-Biz-Talk.svg"
+  },
+  {
+    "id": "10780",
+    "name": "Blob Block",
+    "file": "10780-icon-service-Blob-Block.svg"
+  },
+  {
+    "id": "10781",
+    "name": "Blob Page",
+    "file": "10781-icon-service-Blob-Page.svg"
+  },
+  {
+    "id": "10782",
+    "name": "Branch",
+    "file": "10782-icon-service-Branch.svg"
+  },
+  {
+    "id": "10783",
+    "name": "Browser",
+    "file": "10783-icon-service-Browser.svg"
+  },
+  {
+    "id": "10784",
+    "name": "Bug",
+    "file": "10784-icon-service-Bug.svg"
+  },
+  {
+    "id": "10785",
+    "name": "Builds",
+    "file": "10785-icon-service-Builds.svg"
+  },
+  {
+    "id": "10786",
+    "name": "Cache",
+    "file": "10786-icon-service-Cache.svg"
+  },
+  {
+    "id": "10787",
+    "name": "Azure Databricks",
+    "file": "10787-icon-service-Azure-Databricks.svg"
+  },
+  {
+    "id": "10787",
+    "name": "Code",
+    "file": "10787-icon-service-Code.svg"
+  },
+  {
+    "id": "10788",
+    "name": "Commit",
+    "file": "10788-icon-service-Commit.svg"
+  },
+  {
+    "id": "10789",
+    "name": "Controls",
+    "file": "10789-icon-service-Controls.svg"
+  },
+  {
+    "id": "10790",
+    "name": "Controls Horizontal",
+    "file": "10790-icon-service-Controls-Horizontal.svg"
+  },
+  {
+    "id": "10791",
+    "name": "Cost Alerts",
+    "file": "10791-icon-service-Cost-Alerts.svg"
+  },
+  {
+    "id": "10792",
+    "name": "Cost Analysis",
+    "file": "10792-icon-service-Cost-Analysis.svg"
+  },
+  {
+    "id": "10793",
+    "name": "Cost Budgets",
+    "file": "10793-icon-service-Cost-Budgets.svg"
+  },
+  {
+    "id": "10794",
+    "name": "Counter",
+    "file": "10794-icon-service-Counter.svg"
+  },
+  {
+    "id": "10795",
+    "name": "Cubes",
+    "file": "10795-icon-service-Cubes.svg"
+  },
+  {
+    "id": "10796",
+    "name": "Dev Console",
+    "file": "10796-icon-service-Dev-Console.svg"
+  },
+  {
+    "id": "10797",
+    "name": "Download",
+    "file": "10797-icon-service-Download.svg"
+  },
+  {
+    "id": "10798",
+    "name": "Error",
+    "file": "10798-icon-service-Error.svg"
+  },
+  {
+    "id": "10799",
+    "name": "Extensions",
+    "file": "10799-icon-service-Extensions.svg"
+  },
+  {
+    "id": "10800",
+    "name": "File",
+    "file": "10800-icon-service-File.svg"
+  },
+  {
+    "id": "10801",
+    "name": "Files",
+    "file": "10801-icon-service-Files.svg"
+  },
+  {
+    "id": "10802",
+    "name": "Folder Blank",
+    "file": "10802-icon-service-Folder-Blank.svg"
+  },
+  {
+    "id": "10803",
+    "name": "Folder Website",
+    "file": "10803-icon-service-Folder-Website.svg"
+  },
+  {
+    "id": "10804",
+    "name": "FTP",
+    "file": "10804-icon-service-FTP.svg"
+  },
+  {
+    "id": "10805",
+    "name": "Gear",
+    "file": "10805-icon-service-Gear.svg"
+  },
+  {
+    "id": "10807",
+    "name": "Globe Error",
+    "file": "10807-icon-service-Globe-Error.svg"
+  },
+  {
+    "id": "10808",
+    "name": "Globe Success",
+    "file": "10808-icon-service-Globe-Success.svg"
+  },
+  {
+    "id": "10809",
+    "name": "Globe Warning",
+    "file": "10809-icon-service-Globe-Warning.svg"
+  },
+  {
+    "id": "10810",
+    "name": "Guide",
+    "file": "10810-icon-service-Guide.svg"
+  },
+  {
+    "id": "10811",
+    "name": "Heart",
+    "file": "10811-icon-service-Heart.svg"
+  },
+  {
+    "id": "10812",
+    "name": "Image",
+    "file": "10812-icon-service-Image.svg"
+  },
+  {
+    "id": "10813",
+    "name": "Input Output",
+    "file": "10813-icon-service-Input-Output.svg"
+  },
+  {
+    "id": "10814",
+    "name": "Journey Hub",
+    "file": "10814-icon-service-Journey-Hub.svg"
+  },
+  {
+    "id": "10815",
+    "name": "Launch Portal",
+    "file": "10815-icon-service-Launch-Portal.svg"
+  },
+  {
+    "id": "10816",
+    "name": "Learn",
+    "file": "10816-icon-service-Learn.svg"
+  },
+  {
+    "id": "10817",
+    "name": "Load Test",
+    "file": "10817-icon-service-Load-Test.svg"
+  },
+  {
+    "id": "10818",
+    "name": "Location",
+    "file": "10818-icon-service-Location.svg"
+  },
+  {
+    "id": "10819",
+    "name": "Log Streaming",
+    "file": "10819-icon-service-Log-Streaming.svg"
+  },
+  {
+    "id": "10820",
+    "name": "Management Portal",
+    "file": "10820-icon-service-Management-Portal.svg"
+  },
+  {
+    "id": "10821",
+    "name": "Media File",
+    "file": "10821-icon-service-Media-File.svg"
+  },
+  {
+    "id": "10822",
+    "name": "Mobile",
+    "file": "10822-icon-service-Mobile.svg"
+  },
+  {
+    "id": "10823",
+    "name": "Mobile Engagement",
+    "file": "10823-icon-service-Mobile-Engagement.svg"
+  },
+  {
+    "id": "10824",
+    "name": "Power",
+    "file": "10824-icon-service-Power.svg"
+  },
+  {
+    "id": "10825",
+    "name": "Powershell",
+    "file": "10825-icon-service-Powershell.svg"
+  },
+  {
+    "id": "10826",
+    "name": "Power Up",
+    "file": "10826-icon-service-Power-Up.svg"
+  },
+  {
+    "id": "10827",
+    "name": "Feature Previews",
+    "file": "10827-icon-service-Feature-Previews.svg"
+  },
+  {
+    "id": "10828",
+    "name": "Process Explorer",
+    "file": "10828-icon-service-Process-Explorer.svg"
+  },
+  {
+    "id": "10829",
+    "name": "Production Ready Database",
+    "file": "10829-icon-service-Production-Ready-Database.svg"
+  },
+  {
+    "id": "10830",
+    "name": "Resource Group List",
+    "file": "10830-icon-service-Resource-Group-List.svg"
+  },
+  {
+    "id": "10831",
+    "name": "Resource Linked",
+    "file": "10831-icon-service-Resource-Linked.svg"
+  },
+  {
+    "id": "10832",
+    "name": "Auto Scale",
+    "file": "10832-icon-service-Auto-Scale.svg"
+  },
+  {
+    "id": "10833",
+    "name": "Scheduler",
+    "file": "10833-icon-service-Scheduler.svg"
+  },
+  {
+    "id": "10834",
+    "name": "Search",
+    "file": "10834-icon-service-Search.svg"
+  },
+  {
+    "id": "10835",
+    "name": "Server Farm",
+    "file": "10835-icon-service-Server-Farm.svg"
+  },
+  {
+    "id": "10836",
+    "name": "Azure Service Bus",
+    "file": "10836-icon-service-Azure-Service-Bus.svg"
+  },
+  {
+    "id": "10837",
+    "name": "SSD",
+    "file": "10837-icon-service-SSD.svg"
+  },
+  {
+    "id": "10838",
+    "name": "Storage Azure Files",
+    "file": "10838-icon-service-Storage-Azure-Files.svg"
+  },
+  {
+    "id": "10839",
+    "name": "Storage Container",
+    "file": "10839-icon-service-Storage-Container.svg"
+  },
+  {
+    "id": "10840",
+    "name": "Storage Queue",
+    "file": "10840-icon-service-Storage-Queue.svg"
+  },
+  {
+    "id": "10841",
+    "name": "Table",
+    "file": "10841-icon-service-Table.svg"
+  },
+  {
+    "id": "10842",
+    "name": "Tags",
+    "file": "10842-icon-service-Tags.svg"
+  },
+  {
+    "id": "10843",
+    "name": "TFS VC Repository",
+    "file": "10843-icon-service-TFS-VC-Repository.svg"
+  },
+  {
+    "id": "10844",
+    "name": "Toolbox",
+    "file": "10844-icon-service-Toolbox.svg"
+  },
+  {
+    "id": "10845",
+    "name": "Versions",
+    "file": "10845-icon-service-Versions.svg"
+  },
+  {
+    "id": "10846",
+    "name": "Web Jobs",
+    "file": "10846-icon-service-Web-Jobs.svg"
+  },
+  {
+    "id": "10847",
+    "name": "Website Power",
+    "file": "10847-icon-service-Website-Power.svg"
+  },
+  {
+    "id": "10848",
+    "name": "Website Staging",
+    "file": "10848-icon-service-Website-Staging.svg"
+  },
+  {
+    "id": "10849",
+    "name": "Web Slots",
+    "file": "10849-icon-service-Web-Slots.svg"
+  },
+  {
+    "id": "10850",
+    "name": "Web Test",
+    "file": "10850-icon-service-Web-Test.svg"
+  },
+  {
+    "id": "10851",
+    "name": "Workbooks",
+    "file": "10851-icon-service-Workbooks.svg"
+  },
+  {
+    "id": "10852",
+    "name": "Workflow",
+    "file": "10852-icon-service-Workflow.svg"
+  },
+  {
+    "id": "10853",
+    "name": "Backlog",
+    "file": "10853-icon-service-Backlog.svg"
+  },
+  {
+    "id": "10854",
+    "name": "Media",
+    "file": "10854-icon-service-Media.svg"
+  },
+  {
+    "id": "10855",
+    "name": "Module",
+    "file": "10855-icon-service-Module.svg"
+  },
+  {
+    "id": "10856",
+    "name": "Search Grid",
+    "file": "10856-icon-service-Search-Grid.svg"
+  }
+]
