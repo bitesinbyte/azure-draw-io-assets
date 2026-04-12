@@ -467,12 +467,17 @@ export default function Home() {
       <footer className="w-full border-t border-border/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
+            <a
+              href="https://bitesinbyte.com"
+              className="flex items-center gap-2 text-foreground hover:text-foreground/80 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BitsInByteLogo />
               <span className="text-sm font-semibold tracking-tight">
                 Bites In Byte
               </span>
-            </div>
+            </a>
             <p className="text-xs text-muted-foreground">
               Azure icons are trademarks of Microsoft Corporation. This project
               is not affiliated with Microsoft.
