@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import iconsData from "./data/icons.json";
 import configData from "../../sync-assets/config.json";
 
@@ -184,6 +184,56 @@ function ClockIcon() {
   );
 }
 
+function ChevronDownIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m6 9 6 6 6-6" />
+    </svg>
+  );
+}
+
+function SparklesIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" />
+    </svg>
+  );
+}
+
+function GitHubIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+    </svg>
+  );
+}
+
 function IconCard({
   icon,
   view,
@@ -211,8 +261,8 @@ function IconCard({
 
   if (view === "list") {
     return (
-      <div className="group flex items-center gap-4 px-4 py-3 rounded-lg border border-border/50 hover:border-border hover:bg-card transition-all duration-200">
-        <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-md bg-muted/50 p-1.5">
+      <div className="card-glow group flex items-center gap-4 px-4 py-3 rounded-xl border border-border/50 hover:border-foreground/10 hover:bg-card transition-all duration-300">
+        <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-muted/50 p-1.5">
           <img
             src={`/icons/${icon.file}`}
             alt={icon.name}
@@ -224,7 +274,7 @@ function IconCard({
           <p className="text-sm font-medium truncate">{icon.name}</p>
           <p className="text-xs text-muted-foreground font-mono">{icon.file}</p>
         </div>
-        <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+        <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <button
             onClick={handleCopyUrl}
             className="p-1.5 rounded-md hover:bg-accent text-muted-foreground hover:text-foreground transition-colors"
@@ -245,8 +295,8 @@ function IconCard({
   }
 
   return (
-    <div className="group relative flex flex-col items-center gap-3 p-4 rounded-xl border border-border/50 hover:border-border hover:bg-card transition-all duration-200 hover:shadow-sm">
-      <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-muted/50 p-2 group-hover:bg-muted transition-colors">
+    <div className="card-glow group relative flex flex-col items-center gap-3 p-4 rounded-xl border border-border/50 hover:border-foreground/10 hover:bg-card transition-all duration-300 hover:shadow-md">
+      <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-muted/50 p-2 group-hover:bg-muted transition-colors duration-300">
         <img
           src={`/icons/${icon.file}`}
           alt={icon.name}
@@ -257,7 +307,7 @@ function IconCard({
       <p className="text-xs text-center font-medium leading-tight line-clamp-2 w-full">
         {icon.name}
       </p>
-      <div className="absolute top-2 right-2 flex gap-0.5 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div className="absolute top-2 right-2 flex gap-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <button
           onClick={handleCopyUrl}
           className="p-1 rounded-md hover:bg-accent text-muted-foreground hover:text-foreground transition-colors"
@@ -280,6 +330,15 @@ function IconCard({
 export default function Home() {
   const [search, setSearch] = useState("");
   const [view, setView] = useState<"grid" | "list">("grid");
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const filtered = useMemo(() => {
     if (!search.trim()) return icons;
@@ -292,12 +351,18 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+      {/* Header - Fixed transparent with scroll transition */}
+      <header
+        className={`fixed top-0 z-50 w-full transition-all duration-300 ${
+          scrolled
+            ? "header-scrolled"
+            : "bg-transparent"
+        }`}
+      >
+        <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
           <a
             href="https://bitesinbyte.com"
-            className="flex items-center gap-2.5 text-foreground hover:text-foreground/80 transition-colors"
+            className="flex items-center gap-2.5 text-foreground hover:opacity-80 transition-opacity"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -306,87 +371,122 @@ export default function Home() {
               Bites In Byte
             </span>
           </a>
-          <nav className="flex items-center gap-4">
+          <nav className="flex items-center gap-1">
+            <a
+              href="#icons"
+              className="nav-link rounded-md px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Icons
+            </a>
+            <a
+              href="https://bitesinbyte.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link rounded-md px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Blog
+            </a>
             <a
               href="https://github.com/bitesinbyte/azure-draw-io-assets"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="ml-2 inline-flex items-center justify-center h-10 w-10 rounded-md text-muted-foreground hover:text-foreground hover:scale-110 transition-all duration-200"
+              title="GitHub"
             >
-              GitHub
-              <ExternalLinkIcon />
+              <GitHubIcon />
             </a>
           </nav>
         </div>
       </header>
 
-      {/* Hero */}
-      <section className="w-full border-b border-border/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <div className="max-w-2xl">
-            <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
+      {/* Hero - Full screen, centered, matching parent site style */}
+      <section className="hero-gradient relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 pt-14">
+        <div className="max-w-3xl text-center">
+          {/* Badge pill */}
+          <div className="hero-entrance inline-flex items-center gap-2 rounded-full border border-border/50 bg-muted/50 px-4 py-1.5 text-sm backdrop-blur-sm hero-badge-glow">
+            <SparklesIcon />
+            <span className="text-muted-foreground">
+              v{configData.currentVersion} &middot; {icons.length}+ icons
+            </span>
+          </div>
+
+          {/* Main heading with gradient text */}
+          <h1 className="hero-entrance-2 mt-8 text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
+            <span className="bg-gradient-to-r from-foreground/70 via-foreground to-foreground/70 bg-clip-text text-transparent">
               Azure Draw.io Assets
-            </h1>
-            <p className="mt-3 text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Browse {icons.length} Azure service icons for your architecture
-              diagrams. Continuously synced from official Microsoft Azure icon
-              sets.
-            </p>
-            <div className="mt-4 flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-muted text-xs font-medium text-muted-foreground">
-                v{configData.currentVersion}
-              </span>
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-muted text-xs font-medium text-muted-foreground">
-                <ClockIcon />
-                Last synced{" "}
-                {new Date(configData.lastSyncDateTime).toLocaleDateString(
-                  "en-US",
-                  {
-                    year: "numeric",
-                    month: "short",
-                    day: "numeric",
-                  }
-                )}
-              </span>
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-muted text-xs font-medium text-muted-foreground">
-                <ClockIcon />
-                Last checked{" "}
-                {new Date(configData.lastCheckedDateTime).toLocaleDateString(
-                  "en-US",
-                  {
-                    year: "numeric",
-                    month: "short",
-                    day: "numeric",
-                  }
-                )}
-              </span>
-            </div>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <a
-                href="https://github.com/bitesinbyte/azure-draw-io-assets"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
-              >
-                Use in Draw.io
-                <ExternalLinkIcon />
-              </a>
-              <a
-                href="https://github.com/bitesinbyte/azure-draw-io-assets#readme"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-sm font-medium hover:bg-accent transition-colors"
-              >
-                Documentation
-              </a>
-            </div>
+            </span>
+          </h1>
+
+          {/* Subtitle */}
+          <p className="hero-entrance-3 mt-6 max-w-xl mx-auto text-lg leading-8 text-muted-foreground">
+            Browse and search Azure service icons for your architecture
+            diagrams. Continuously synced from official Microsoft Azure icon
+            sets.
+          </p>
+
+          {/* Metadata badges */}
+          <div className="hero-entrance-4 mt-6 flex flex-wrap items-center justify-center gap-2">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-border/50 bg-muted/50 text-xs font-medium text-muted-foreground backdrop-blur-sm">
+              <ClockIcon />
+              Last synced{" "}
+              {new Date(configData.lastSyncDateTime).toLocaleDateString(
+                "en-US",
+                {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                }
+              )}
+            </span>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-border/50 bg-muted/50 text-xs font-medium text-muted-foreground backdrop-blur-sm">
+              <ClockIcon />
+              Last checked{" "}
+              {new Date(configData.lastCheckedDateTime).toLocaleDateString(
+                "en-US",
+                {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                }
+              )}
+            </span>
+          </div>
+
+          {/* CTA Buttons */}
+          <div className="hero-entrance-5 mt-8 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href="https://github.com/bitesinbyte/azure-draw-io-assets"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-foreground text-background text-sm font-medium hover:bg-foreground/90 transition-colors"
+            >
+              Use in Draw.io
+              <ExternalLinkIcon />
+            </a>
+            <a
+              href="https://github.com/bitesinbyte/azure-draw-io-assets#readme"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-border text-sm font-medium hover:bg-accent transition-colors"
+            >
+              Documentation
+            </a>
           </div>
         </div>
+
+        {/* Scroll down indicator */}
+        <a
+          href="#icons"
+          className="absolute bottom-8 animate-bounce text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ChevronDownIcon />
+        </a>
       </section>
 
-      {/* Search + Controls */}
-      <section className="w-full border-b border-border/50 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      {/* Icons Section */}
+      <section id="icons" className="border-t">
+        {/* Search + Controls */}
+        <div className="mx-auto max-w-5xl px-4 py-8">
           <div className="flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
             <div className="relative flex-1 max-w-md">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-muted-foreground">
@@ -432,11 +532,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
 
-      {/* Icon Grid / List */}
-      <main className="flex-1 w-full">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Icon Grid / List */}
+        <div className="mx-auto max-w-5xl px-4 pb-24">
           {filtered.length === 0 ? (
             <div className="flex flex-col items-center justify-center py-20 text-center">
               <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
@@ -448,7 +546,7 @@ export default function Home() {
               </p>
             </div>
           ) : view === "grid" ? (
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
               {filtered.map((icon) => (
                 <IconCard key={icon.file} icon={icon} view="grid" />
               ))}
@@ -461,24 +559,120 @@ export default function Home() {
             </div>
           )}
         </div>
-      </main>
+      </section>
 
-      {/* Footer */}
-      <footer className="w-full border-t border-border/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <a
-              href="https://bitesinbyte.com"
-              className="flex items-center gap-2 text-foreground hover:text-foreground/80 transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <BitsInByteLogo />
-              <span className="text-sm font-semibold tracking-tight">
-                Bites In Byte
-              </span>
-            </a>
-            <p className="text-xs text-muted-foreground">
+      {/* Footer - Multi-column grid matching parent site */}
+      <footer className="border-t">
+        <div className="mx-auto max-w-5xl px-4 py-12">
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            {/* Brand column */}
+            <div className="sm:col-span-2 lg:col-span-1">
+              <a
+                href="https://bitesinbyte.com"
+                className="flex items-center gap-2 text-foreground hover:opacity-80 transition-opacity"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BitsInByteLogo />
+                <span className="text-sm font-semibold tracking-tight">
+                  Bites In Byte
+                </span>
+              </a>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                Open-source tools and resources for developers and architects.
+              </p>
+            </div>
+
+            {/* Resources column */}
+            <div>
+              <h3 className="text-sm font-semibold mb-3">Resources</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="https://github.com/bitesinbyte/azure-draw-io-assets#readme"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/bitesinbyte/azure-draw-io-assets"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    GitHub Repository
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/azure_latest.xml"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Draw.io Library (XML)
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Navigation column */}
+            <div>
+              <h3 className="text-sm font-semibold mb-3">Navigation</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="#icons"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Browse Icons
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://bitesinbyte.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://bitesinbyte.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    About
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Connect column */}
+            <div>
+              <h3 className="text-sm font-semibold mb-3">Connect</h3>
+              <div className="flex flex-wrap gap-2">
+                <a
+                  href="https://github.com/bitesinbyte"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-lg border p-2 text-muted-foreground hover:text-foreground hover:border-foreground/20 transition-all duration-200"
+                  title="GitHub"
+                >
+                  <GitHubIcon />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Copyright bar */}
+          <div className="mt-10 border-t pt-6 text-center text-sm text-muted-foreground">
+            <p>
               Azure icons are trademarks of Microsoft Corporation. This project
               is not affiliated with Microsoft.
             </p>

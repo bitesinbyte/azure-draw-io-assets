@@ -63,3 +63,130 @@
     text-wrap: balance;
   }
 }
+
+/* Hero gradient background */
+.hero-gradient {
+  background: radial-gradient(
+      ellipse 80% 50% at 50% -20%,
+      hsl(var(--foreground) / 0.08),
+      transparent
+    ),
+    hsl(var(--background));
+}
+
+/* Hero entrance animations - staggered */
+@keyframes hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-entrance {
+  opacity: 0;
+  animation: hero-fade-up 0.8s ease-out forwards;
+}
+
+.hero-entrance-2 {
+  opacity: 0;
+  animation: hero-fade-up 0.8s ease-out 0.1s forwards;
+}
+
+.hero-entrance-3 {
+  opacity: 0;
+  animation: hero-fade-up 0.8s ease-out 0.2s forwards;
+}
+
+.hero-entrance-4 {
+  opacity: 0;
+  animation: hero-fade-up 0.8s ease-out 0.3s forwards;
+}
+
+.hero-entrance-5 {
+  opacity: 0;
+  animation: hero-fade-up 0.8s ease-out 0.4s forwards;
+}
+
+/* Scroll reveal animations */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transform: translateY(30px);
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Nav link animated underline */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  width: 0;
+  background-color: hsl(var(--foreground));
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover::after {
+  left: 4px;
+  width: calc(100% - 8px);
+}
+
+/* Card hover glow effect */
+.card-glow {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card-glow:hover {
+  box-shadow: 0 0 20px hsl(var(--foreground) / 0.05);
+}
+
+/* Hero badge glow */
+@keyframes badge-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 10px hsl(var(--foreground) / 0.05);
+  }
+  50% {
+    box-shadow: 0 0 20px hsl(var(--foreground) / 0.1);
+  }
+}
+
+.hero-badge-glow {
+  animation: badge-glow 3s ease-in-out infinite;
+}
+
+/* Header scroll state */
+.header-scrolled {
+  background-color: hsl(var(--background) / 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid hsl(var(--border) / 0.5);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
