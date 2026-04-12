@@ -39,7 +39,11 @@ func main() {
 
 		configData.CurrentVersion = configData.CurrentVersion + 1
 		configData.LastSyncDateTime = time.Now().UTC().Format(time.RFC3339)
-		config.SaveConfig("config.json", configData)
 	}
+
+	// Always update lastCheckedDateTime to record when the pipeline last ran
+	configData.LastCheckedDateTime = time.Now().UTC().Format(time.RFC3339)
+	config.SaveConfig("config.json", configData)
+
 	fmt.Printf("Done")
 }

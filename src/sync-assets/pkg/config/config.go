@@ -8,8 +8,9 @@ import (
 
 // Config struct to hold sync state
 type Config struct {
-	CurrentVersion   int16  `json:"currentVersion"`
-	LastSyncDateTime string `json:"lastSyncDateTime"`
+	CurrentVersion      int16  `json:"currentVersion"`
+	LastSyncDateTime    string `json:"lastSyncDateTime"`
+	LastCheckedDateTime string `json:"lastCheckedDateTime"`
 }
 
 func LoadConfig(filename string) Config {

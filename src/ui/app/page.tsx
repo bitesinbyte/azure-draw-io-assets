@@ -348,6 +348,18 @@ export default function Home() {
                   }
                 )}
               </span>
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-muted text-xs font-medium text-muted-foreground">
+                <ClockIcon />
+                Last checked{" "}
+                {new Date(configData.lastCheckedDateTime).toLocaleDateString(
+                  "en-US",
+                  {
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric",
+                  }
+                )}
+              </span>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
