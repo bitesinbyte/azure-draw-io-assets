@@ -202,11 +202,12 @@ function IconCard({
     document.body.removeChild(link);
   }, [icon.file]);
 
-  const handleCopyName = useCallback(() => {
-    navigator.clipboard.writeText(icon.name);
+  const handleCopyUrl = useCallback(() => {
+    const url = `https://azure-assets.bitesinbyte.com/icons/${icon.file}`;
+    navigator.clipboard.writeText(url);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
-  }, [icon.name]);
+  }, [icon.file]);
 
   if (view === "list") {
     return (
@@ -225,9 +226,9 @@ function IconCard({
         </div>
         <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
           <button
-            onClick={handleCopyName}
+            onClick={handleCopyUrl}
             className="p-1.5 rounded-md hover:bg-accent text-muted-foreground hover:text-foreground transition-colors"
-            title="Copy name"
+            title="Copy URL"
           >
             {copied ? <CheckIcon /> : <CopyIcon />}
           </button>
@@ -258,9 +259,9 @@ function IconCard({
       </p>
       <div className="absolute top-2 right-2 flex gap-0.5 opacity-0 group-hover:opacity-100 transition-opacity">
         <button
-          onClick={handleCopyName}
+          onClick={handleCopyUrl}
           className="p-1 rounded-md hover:bg-accent text-muted-foreground hover:text-foreground transition-colors"
-          title="Copy name"
+          title="Copy URL"
         >
           {copied ? <CheckIcon /> : <CopyIcon />}
         </button>
