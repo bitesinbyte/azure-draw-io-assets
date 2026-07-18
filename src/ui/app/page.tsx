@@ -357,7 +357,7 @@ export default function Home() {
       >
         <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
           <a
-            href="https://lamplitlabs.com"
+            href="https://www.lamplitlabs.com"
             className="flex items-center gap-2.5 text-foreground hover:opacity-80 transition-opacity"
             target="_blank"
             rel="noopener noreferrer"
@@ -375,7 +375,7 @@ export default function Home() {
               Icons
             </a>
             <a
-              href="https://lamplitlabs.com"
+              href="https://blogs.lamplitlabs.com"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link rounded-md px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -564,7 +564,7 @@ export default function Home() {
             {/* Brand column */}
             <div className="sm:col-span-2 lg:col-span-1">
               <a
-                href="https://lamplitlabs.com"
+                href="https://www.lamplitlabs.com"
                 className="flex items-center gap-2 text-foreground hover:opacity-80 transition-opacity"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -628,7 +628,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://lamplitlabs.com"
+                    href="https://blogs.lamplitlabs.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -638,7 +638,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://lamplitlabs.com"
+                    href="https://www.lamplitlabs.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"

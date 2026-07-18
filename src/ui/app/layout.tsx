@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "architecture",
     "cloud",
   ],
-  authors: [{ name: "Lamplit Labs", url: "https://lamplitlabs.com" }],
+  authors: [{ name: "Lamplit Labs", url: "https://www.lamplitlabs.com" }],
   icons: {
     icon: [
       { url: "/favicons/favicon.ico", sizes: "any" },
