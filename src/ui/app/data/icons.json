@@ -1090,6 +1090,11 @@
     "file": "03071-icon-service-App-Compliance-Automation.svg"
   },
   {
+    "id": "030777508",
+    "name": "Service Group Relationships",
+    "file": "030777508-icon-service-Service-Group-Relationships.svg"
+  },
+  {
     "id": "030868929",
     "name": "Stage Maps",
     "file": "030868929-icon-service-Stage-Maps.svg"
@@ -1113,6 +1118,11 @@
     "id": "03092",
     "name": "Central Service Instance For SAP",
     "file": "03092-icon-service-Central-Service-Instance-For-SAP.svg"
+  },
+  {
+    "id": "031193085",
+    "name": "Azure Access Point",
+    "file": "031193085-icon-service-Azure-Access-Point.svg"
   },
   {
     "id": "03134",
@@ -1365,6 +1375,11 @@
     "file": "03368-icon-service-DNS-Security-Policy.svg"
   },
   {
+    "id": "033740592",
+    "name": "Azure Data Transfer",
+    "file": "033740592-icon-service-Azure-Data-Transfer.svg"
+  },
+  {
     "id": "033745116",
     "name": "Azure Local",
     "file": "033745116-icon-service-Azure-Local.svg"
@@ -1403,6 +1418,11 @@
     "id": "03393",
     "name": "Managed DevOps Pools",
     "file": "03393-icon-service-Managed-DevOps-Pools.svg"
+  },
+  {
+    "id": "03394",
+    "name": "Azure Enclaves",
+    "file": "03394-icon-service-Azure-Enclaves.svg"
   },
   {
     "id": "03394",
@@ -1550,6 +1570,11 @@
     "file": "034251-icon-service-external-id-modified.svg"
   },
   {
+    "id": "034296882",
+    "name": "Agentic Web Apps",
+    "file": "034296882-icon-service-Agentic-Web-Apps.svg"
+  },
+  {
     "id": "03438",
     "name": "Azure OpenAI",
     "file": "03438-icon-service-Azure-OpenAI.svg"
@@ -1610,6 +1635,11 @@
     "file": "03490-icon-service-Oracle-Database.svg"
   },
   {
+    "id": "034923704",
+    "name": "Resiliency",
+    "file": "034923704-icon-service-Resiliency.svg"
+  },
+  {
     "id": "03495",
     "name": "Azure Consumption Commitment",
     "file": "03495-icon-service-Azure-Consumption-Commitment.svg"
@@ -1650,6 +1680,11 @@
     "file": "03549-icon-service-Managed-File-Shares.svg"
   },
   {
+    "id": "035556610",
+    "name": "DDoS Custom Policy",
+    "file": "035556610-icon-service-DDoS-Custom-Policy.svg"
+  },
+  {
     "id": "035572279",
     "name": "Operation Center",
     "file": "035572279-icon-service-Operation-Center.svg"
@@ -1663,6 +1698,26 @@
     "id": "03565",
     "name": "SQL Database Fleet Manager",
     "file": "03565-icon-service-SQL-Database-Fleet-Manager.svg"
+  },
+  {
+    "id": "035656437",
+    "name": "Azure DocumentDB",
+    "file": "035656437-icon-service-Azure-DocumentDB.svg"
+  },
+  {
+    "id": "035712231",
+    "name": "Disconnected Operations",
+    "file": "035712231-icon-service-Disconnected-Operations.svg"
+  },
+  {
+    "id": "035746832",
+    "name": "AI Foundry",
+    "file": "035746832-icon-service-AI-Foundry.svg"
+  },
+  {
+    "id": "035824068",
+    "name": "Azure Data Sharing",
+    "file": "035824068-icon-service-Azure-Data-Sharing.svg"
   },
   {
     "id": "03585",
@@ -1705,6 +1760,16 @@
     "file": "03650-icon-service-Network-Security-Hub.svg"
   },
   {
+    "id": "036509374",
+    "name": "Foundry Application",
+    "file": "036509374-icon-service-Foundry-Application.svg"
+  },
+  {
+    "id": "036509415",
+    "name": "Foundry Project",
+    "file": "036509415-icon-service-Foundry-Project.svg"
+  },
+  {
     "id": "03656",
     "name": "Hybrid Connectivity Hub",
     "file": "03656-icon-service-Hybrid-Connectivity-Hub.svg"
@@ -1728,6 +1793,46 @@
     "id": "03755",
     "name": "Planetary Computer Pro",
     "file": "03755-icon-service-Planetary-Computer-Pro.svg"
+  },
+  {
+    "id": "037838045",
+    "name": "AI Gateway",
+    "file": "037838045-icon-service-AI-Gateway.svg"
+  },
+  {
+    "id": "038470497",
+    "name": "Azure AI Foundry IQ",
+    "file": "038470497-icon-service-Azure-AI-Foundry-IQ.svg"
+  },
+  {
+    "id": "038470510",
+    "name": "Azure Machine Learning",
+    "file": "038470510-icon-service-Azure-Machine-Learning.svg"
+  },
+  {
+    "id": "038470523",
+    "name": "Foundry Agent Service",
+    "file": "038470523-icon-service-Foundry-Agent-Service.svg"
+  },
+  {
+    "id": "038470534",
+    "name": "Foundry Control Plane",
+    "file": "038470534-icon-service-Foundry-Control-Plane.svg"
+  },
+  {
+    "id": "038470555",
+    "name": "Foundry Labs",
+    "file": "038470555-icon-service-Foundry-Labs.svg"
+  },
+  {
+    "id": "038470593",
+    "name": "Foundry Local",
+    "file": "038470593-icon-service-Foundry-Local.svg"
+  },
+  {
+    "id": "038470614",
+    "name": "Foundry Models",
+    "file": "038470614-icon-service-Foundry-Models.svg"
   },
   {
     "id": "10001",

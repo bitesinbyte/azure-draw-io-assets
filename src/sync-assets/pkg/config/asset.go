@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"github.com/bitesinbyte/azure-draw-io-assets/utils"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/lamplitlabs/azure-draw-io-assets/utils"
 )
 
 type MxLibrary struct {
@@ -41,7 +42,7 @@ func ReadAndConvertSVGFiles(rootDir, outputFilePath string) error {
 				return err
 			}
 			entry := Entry{
-				Data:   fmt.Sprintf("https://azure-assets.bitesinbyte.com/icons/%s", info.Name()),
+				Data:   fmt.Sprintf("https://azure-assets.lamplitlabs.com/icons/%s", info.Name()),
 				Width:  150,
 				Height: 150,
 				Title:  utils.ExtractName(info.Name()),
