@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Azure Draw.io Assets | Bites In Byte",
+  title: "Azure Draw.io Assets | Lamplit Labs",
   description:
     "Browse and search 600+ Azure service icons for Draw.io diagrams. Continuously updated from official Microsoft Azure icon sets.",
   keywords: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "architecture",
     "cloud",
   ],
-  authors: [{ name: "Bites In Byte", url: "https://bitesinbyte.com" }],
+  authors: [{ name: "Lamplit Labs", url: "https://lamplitlabs.com" }],
   icons: {
     icon: [
       { url: "/favicons/favicon.ico", sizes: "any" },
@@ -43,11 +43,11 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Azure Draw.io Assets | Bites In Byte",
+    title: "Azure Draw.io Assets | Lamplit Labs",
     description:
       "Browse and search 600+ Azure service icons for Draw.io diagrams.",
-    url: "https://bitesinbyte.com",
-    siteName: "Bites In Byte",
+    url: "https://azure-assets.lamplitlabs.com",
+    siteName: "Lamplit Labs",
     type: "website",
   },
 };

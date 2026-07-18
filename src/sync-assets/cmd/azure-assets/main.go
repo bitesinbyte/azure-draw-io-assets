@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bitesinbyte/azure-draw-io-assets/pkg/config"
-	"github.com/bitesinbyte/azure-draw-io-assets/pkg/external"
+	"github.com/lamplitlabs/azure-draw-io-assets/pkg/config"
+	"github.com/lamplitlabs/azure-draw-io-assets/pkg/external"
 )
 
 func main() {
